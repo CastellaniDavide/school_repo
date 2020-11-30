@@ -1,0 +1,2360 @@
+Start: 2020-11-30 15:34:06.095836
+Input file readed
+Ended: 2020-11-30 15:34:06.095836
+Total time: 0:00:00.000948
+
+Start: 2020-11-30 15:35:18.177369
+Input file readed
+Login done
+Ended: 2020-11-30 15:35:18.509703
+Total time: 0:00:00.332334
+
+Start: 2020-11-30 15:53:00.464400
+Input file readed
+Login done
+- Created repo: 1CI
+Created welcome file
+	- Created branch: 00001
+	- Created branch: 00012
+- Created repo: 2CI
+Created welcome file
+	- Created branch: 10000
+	- Created branch: 18888
+- Created repo: 4CI
+Created welcome file
+	- Created branch: 15555
+- Created repo: 3CI
+Created welcome file
+	- Created branch: 19999
+- Created repo: 5CI
+Created welcome file
+	- Created branch: 00000
+Ended: 2020-11-30 15:53:22.762113
+Total time: 0:00:22.297713
+
+Start: 2020-11-30 15:56:09.498966
+Input file readed
+Login done
+- Get access to the repo: 1CI
+	- Welcome file already exists
+	- Branch already exists: 00001
+	- Branch already exists: 00012
+- Get access to the repo: 2CI
+	- Welcome file already exists
+	- Branch already exists: 10000
+	- Branch already exists: 18888
+- Get access to the repo: 4CI
+	- Welcome file already exists
+	- Branch already exists: 15555
+- Get access to the repo: 3CI
+	- Welcome file already exists
+	- Branch already exists: 19999
+- Get access to the repo: 5CI
+	- Welcome file already exists
+	- Branch already exists: 00000
+Ended: 2020-11-30 15:56:18.291179
+Total time: 0:00:08.792213
+
+Start: 2020-11-30 15:58:39.386059
+Input file readed
+Login done
+- Get access to the repo: 1CI
+	- Welcome file already exists
+	- Branch already exists: 00001
+	- Branch already exists: 00012
+- Get access to the repo: 2CI
+	- Welcome file already exists
+	- Branch already exists: 10000
+	- Branch already exists: 18888
+- Get access to the repo: 4CI
+	- Welcome file already exists
+	- Branch already exists: 15555
+- Get access to the repo: 3CI
+	- Welcome file already exists
+	- Branch already exists: 19999
+- Get access to the repo: 5CI
+	- Welcome file already exists
+	- Branch already exists: 00000
+Ended: 2020-11-30 15:58:47.776164
+Total time: 0:00:08.390105
+
+Start: 2020-11-30 16:08:36.518411
+Input file readed
+Login done
+Start: 2020-11-30 16:09:06.178993
+Input file readed
+Login done
+Start: 2020-11-30 16:09:28.624606
+Input file readed
+Login done
+Start: 2020-11-30 16:10:29.018438
+Input file readed
+Login done
+- Get access to the repo: 1CI
+	- Welcome file already exists
+	- Branch already exists: 00001
+	- Branch already exists: 00012
+- Get access to the repo: 2CI
+	- Welcome file already exists
+	- Branch already exists: 10000
+	- Branch already exists: 18888
+- Get access to the repo: 4CI
+	- Welcome file already exists
+	- Branch already exists: 15555
+- Get access to the repo: 3CI
+	- Welcome file already exists
+	- Branch already exists: 19999
+- Get access to the repo: 5CI
+	- Welcome file already exists
+	- Branch already exists: 00000
+Ended: 2020-11-30 16:10:38.214502
+Total time: 0:00:09.196064
+
+Start: 2020-11-30 16:11:04.653430
+Input file readed
+Login done
+- Get access to the repo: 1CI
+	- Welcome file already exists
+	- Branch already exists: 00001
+	- Branch already exists: 00012
+- Get access to the repo: 2CI
+	- Welcome file already exists
+	- Branch already exists: 10000
+	- Branch already exists: 18888
+- Get access to the repo: 4CI
+	- Welcome file already exists
+	- Branch already exists: 15555
+- Get access to the repo: 3CI
+	- Welcome file already exists
+	- Branch already exists: 19999
+- Get access to the repo: 5CI
+	- Welcome file already exists
+	- Branch already exists: 00000
+Ended: 2020-11-30 16:11:16.286242
+Total time: 0:00:11.632812
+
+Start: 2020-11-30 16:14:50.047315
+Input file readed
+Login done
+Start: 2020-11-30 16:15:25.108552
+Input file readed
+Login done
+Start: 2020-11-30 16:16:34.938872
+Input file readed
+Login done
+- Get access to the repo for 1CI class, named 2020-2025-1CI
+	- Welcome file already exists
+	- Branch already exists: 00001
+	- Branch already exists: 00012
+- Get access to the repo for 2CI class, named 2020-2024-2CI
+	- Welcome file already exists
+	- Branch already exists: 10000
+	- Created branch: 18888
+- Created repo: 4CI
+	- Created welcome file
+	- Created branch: 15555
+- Created repo: 3CI
+	- Created welcome file
+	- Created branch: 19999
+- Created repo: 5CI
+	- Created welcome file
+	- Created branch: 00000
+Ended: 2020-11-30 16:16:53.937625
+Total time: 0:00:18.998753
+
+Start: 2020-11-30 16:18:01.091886
+Input file readed
+Login done
+Start: 2020-11-30 16:18:08.675867
+Input file readed
+Login done
+Start: 2020-11-30 16:18:41.457401
+Input file readed
+Login done
+Start: 2020-11-30 16:19:12.181256
+Input file readed
+Login done
+- Get access to the repo for 1CI class, named 2020-2025-1CI
+	- Welcome file already exists
+	- Branch already exists: 00001
+	- Branch already exists: 00012
+- Get access to the repo for 2CI class, named 2020-2024-2CI
+	- Welcome file already exists
+	- Branch already exists: 10000
+	- Branch already exists: 18888
+- Get access to the repo for 4CI class, named 2020-2022-4CI
+	- Welcome file already exists
+	- Branch already exists: 15555
+- Get access to the repo for 3CI class, named 2020-2023-3CI
+	- Welcome file already exists
+	- Branch already exists: 19999
+- Get access to the repo for 5CI class, named 2020-2021-5CI
+	- Welcome file already exists
+	- Branch already exists: 00000
+Ended: 2020-11-30 16:19:24.733855
+Total time: 0:00:12.552599
+
+Start: 2020-11-30 16:20:04.103313
+Input file readed
+Login done
+- Created repo for 1CI class, named -2020-2025-1CI
+	- Created welcome file
+	- Created branch: 00001
+	- Created branch: 00012
+- Created repo for 2CI class, named -2020-2024-2CI
+	- Created welcome file
+	- Created branch: 10000
+	- Created branch: 18888
+- Created repo for 4CI class, named -2020-2022-4CI
+	- Created welcome file
+	- Created branch: 15555
+- Created repo for 3CI class, named -2020-2023-3CI
+	- Created welcome file
+	- Created branch: 19999
+- Created repo for 5CI class, named -2020-2021-5CI
+	- Created welcome file
+	- Created branch: 00000
+Ended: 2020-11-30 16:20:28.948455
+Total time: 0:00:24.845142
+
+Start: 2020-11-30 16:23:53.225059
+Input file readed
+Login done
+	- Welcome file already exists
+Start: 2020-11-30 16:24:26.943639
+Input file readed
+Login done
+Start: 2020-11-30 16:25:00.219124
+Input file readed
+Login done
+Start: 2020-11-30 16:26:06.935870
+Input file readed
+Login done
+Get an old repo: 2020-2025-1CI
+	- Welcome file already exists
+	- Branch already exists: 00001
+	- Branch already exists: 00012
+Get an old repo: 2020-2024-2CI
+	- Welcome file already exists
+	- Branch already exists: 10000
+	- Branch already exists: 18888
+Get an old repo: 2020-2022-4CI
+	- Welcome file already exists
+	- Branch already exists: 15555
+Get an old repo: 2020-2023-3CI
+	- Welcome file already exists
+	- Branch already exists: 19999
+Get an old repo: 2020-2021-5CI
+	- Welcome file already exists
+	- Branch already exists: 00000
+Ended: 2020-11-30 16:26:13.925406
+Total time: 0:00:06.989536
+
+Start: 2020-11-30 16:26:29.620685
+Input file readed
+Login done
+- Created repo for 1CI class, named 2020-2025-CI
+	- Created welcome file
+	- Created branch: 00001
+	- Created branch: 00012
+- Created repo for 2CI class, named 2020-2024-CI
+	- Created welcome file
+	- Created branch: 10000
+	- Created branch: 18888
+- Created repo for 4CI class, named 2020-2022-CI
+	- Created welcome file
+	- Created branch: 15555
+- Created repo for 3CI class, named 2020-2023-CI
+	- Created welcome file
+	- Created branch: 19999
+- Created repo for 5CI class, named 2020-2021-CI
+	- Created welcome file
+	- Created branch: 00000
+Ended: 2020-11-30 16:26:54.058843
+Total time: 0:00:24.438158
+
+Start: 2020-11-30 16:27:29.710315
+Input file readed
+Login done
+Get an old repo: 2020-2025-CI
+	- Welcome file already exists
+	- Branch already exists: 00001
+	- Branch already exists: 00012
+Get an old repo: 2020-2024-CI
+	- Welcome file already exists
+	- Branch already exists: 10000
+	- Branch already exists: 18888
+Get an old repo: 2020-2022-CI
+	- Welcome file already exists
+	- Branch already exists: 15555
+Get an old repo: 2020-2023-CI
+	- Welcome file already exists
+	- Branch already exists: 19999
+Get an old repo: 2020-2021-CI
+	- Welcome file already exists
+	- Branch already exists: 00000
+Ended: 2020-11-30 16:27:36.628542
+Total time: 0:00:06.918227
+
+Start: 2020-11-30 16:46:34.039101
+Input file readed
+Login done
+- Created repo for 1AI class, named Speed3-2020-2022-AI
+	- Created welcome file
+	- Created branch: 165730
+	- Created branch: 165731
+	- Created branch: 165732
+	- Created branch: 165733
+	- Created branch: 165734
+	- Created branch: 165735
+	- Created branch: 165736
+	- Created branch: 165737
+	- Created branch: 165738
+	- Created branch: 165739
+	- Created branch: 1657310
+	- Created branch: 1657311
+	- Created branch: 1657312
+	- Created branch: 1657313
+	- Created branch: 1657314
+	- Created branch: 1657315
+	- Created branch: 1657316
+	- Created branch: 1657317
+	- Created branch: 1657318
+	- Created branch: 1657319
+	- Created branch: 1657320
+	- Created branch: 1657321
+	- Created branch: 1657322
+- Created repo for 1BI class, named Speed3-2020-2022-BI
+	- Created welcome file
+	- Created branch: 166730
+	- Created branch: 166731
+	- Created branch: 166732
+	- Created branch: 166733
+	- Created branch: 166734
+	- Created branch: 166735
+	- Created branch: 166736
+	- Created branch: 166737
+	- Created branch: 166738
+	- Created branch: 166739
+	- Created branch: 1667310
+	- Created branch: 1667311
+	- Created branch: 1667312
+	- Created branch: 1667313
+	- Created branch: 1667314
+	- Created branch: 1667315
+	- Created branch: 1667316
+	- Created branch: 1667317
+	- Created branch: 1667318
+	- Created branch: 1667319
+	- Created branch: 1667320
+	- Created branch: 1667321
+	- Created branch: 1667322
+- Created repo for 1CI class, named Speed3-2020-2022-CI
+	- Created welcome file
+	- Created branch: 167730
+	- Created branch: 167731
+	- Created branch: 167732
+	- Created branch: 167733
+	- Created branch: 167734
+	- Created branch: 167735
+	- Created branch: 167736
+	- Created branch: 167737
+	- Created branch: 167738
+	- Created branch: 167739
+	- Created branch: 1677310
+	- Created branch: 1677311
+	- Created branch: 1677312
+	- Created branch: 1677313
+	- Created branch: 1677314
+	- Created branch: 1677315
+	- Created branch: 1677316
+	- Created branch: 1677317
+	- Created branch: 1677318
+	- Created branch: 1677319
+	- Created branch: 1677320
+	- Created branch: 1677321
+	- Created branch: 1677322
+- Created repo for 1DI class, named Speed3-2020-2022-DI
+	- Created welcome file
+	- Created branch: 168730
+	- Created branch: 168731
+	- Created branch: 168732
+	- Created branch: 168733
+	- Created branch: 168734
+	- Created branch: 168735
+	- Created branch: 168736
+	- Created branch: 168737
+	- Created branch: 168738
+	- Created branch: 168739
+	- Created branch: 1687310
+	- Created branch: 1687311
+	- Created branch: 1687312
+	- Created branch: 1687313
+	- Created branch: 1687314
+	- Created branch: 1687315
+	- Created branch: 1687316
+	- Created branch: 1687317
+	- Created branch: 1687318
+	- Created branch: 1687319
+	- Created branch: 1687320
+	- Created branch: 1687321
+	- Created branch: 1687322
+- Created repo for 1EI class, named Speed3-2020-2022-EI
+	- Created welcome file
+	- Created branch: 169730
+	- Created branch: 169731
+	- Created branch: 169732
+	- Created branch: 169733
+	- Created branch: 169734
+	- Created branch: 169735
+	- Created branch: 169736
+	- Created branch: 169737
+	- Created branch: 169738
+	- Created branch: 169739
+	- Created branch: 1697310
+	- Created branch: 1697311
+	- Created branch: 1697312
+	- Created branch: 1697313
+	- Created branch: 1697314
+	- Created branch: 1697315
+	- Created branch: 1697316
+	- Created branch: 1697317
+	- Created branch: 1697318
+	- Created branch: 1697319
+	- Created branch: 1697320
+	- Created branch: 1697321
+	- Created branch: 1697322
+- Created repo for 1FL class, named Speed3-2020-2022-FL
+	- Created welcome file
+	- Created branch: 170760
+	- Created branch: 170761
+	- Created branch: 170762
+	- Created branch: 170763
+	- Created branch: 170764
+	- Created branch: 170765
+	- Created branch: 170766
+	- Created branch: 170767
+	- Created branch: 170768
+	- Created branch: 170769
+	- Created branch: 1707610
+	- Created branch: 1707611
+	- Created branch: 1707612
+	- Created branch: 1707613
+	- Created branch: 1707614
+	- Created branch: 1707615
+	- Created branch: 1707616
+	- Created branch: 1707617
+	- Created branch: 1707618
+	- Created branch: 1707619
+	- Created branch: 1707620
+	- Created branch: 1707621
+	- Created branch: 1707622
+- Created repo for 1GL class, named Speed3-2020-2022-GL
+	- Created welcome file
+	- Created branch: 171760
+	- Created branch: 171761
+	- Created branch: 171762
+	- Created branch: 171763
+	- Created branch: 171764
+	- Created branch: 171765
+	- Created branch: 171766
+	- Created branch: 171767
+	- Created branch: 171768
+	- Created branch: 171769
+	- Created branch: 1717610
+	- Created branch: 1717611
+	- Created branch: 1717612
+	- Created branch: 1717613
+	- Created branch: 1717614
+	- Created branch: 1717615
+	- Created branch: 1717616
+	- Created branch: 1717617
+	- Created branch: 1717618
+	- Created branch: 1717619
+	- Created branch: 1717620
+	- Created branch: 1717621
+	- Created branch: 1717622
+- Created repo for 1HL class, named Speed3-2020-2022-HL
+	- Created welcome file
+	- Created branch: 172760
+	- Created branch: 172761
+	- Created branch: 172762
+	- Created branch: 172763
+	- Created branch: 172764
+	- Created branch: 172765
+	- Created branch: 172766
+	- Created branch: 172767
+	- Created branch: 172768
+	- Created branch: 172769
+	- Created branch: 1727610
+	- Created branch: 1727611
+	- Created branch: 1727612
+	- Created branch: 1727613
+	- Created branch: 1727614
+	- Created branch: 1727615
+	- Created branch: 1727616
+	- Created branch: 1727617
+	- Created branch: 1727618
+	- Created branch: 1727619
+	- Created branch: 1727620
+	- Created branch: 1727621
+	- Created branch: 1727622
+- Created repo for 1IL class, named Speed3-2020-2022-IL
+	- Created welcome file
+	- Created branch: 173760
+	- Created branch: 173761
+	- Created branch: 173762
+	- Created branch: 173763
+	- Created branch: 173764
+	- Created branch: 173765
+	- Created branch: 173766
+	- Created branch: 173767
+	- Created branch: 173768
+	- Created branch: 173769
+	- Created branch: 1737610
+	- Created branch: 1737611
+	- Created branch: 1737612
+	- Created branch: 1737613
+	- Created branch: 1737614
+	- Created branch: 1737615
+	- Created branch: 1737616
+	- Created branch: 1737617
+	- Created branch: 1737618
+	- Created branch: 1737619
+	- Created branch: 1737620
+	- Created branch: 1737621
+	- Created branch: 1737622
+- Created repo for 1LE class, named Speed3-2020-2022-LE
+	- Created welcome file
+	- Created branch: 176690
+	- Created branch: 176691
+	- Created branch: 176692
+	- Created branch: 176693
+	- Created branch: 176694
+	- Created branch: 176695
+	- Created branch: 176696
+	- Created branch: 176697
+	- Created branch: 176698
+	- Created branch: 176699
+	- Created branch: 1766910
+	- Created branch: 1766911
+	- Created branch: 1766912
+	- Created branch: 1766913
+	- Created branch: 1766914
+	- Created branch: 1766915
+	- Created branch: 1766916
+	- Created branch: 1766917
+	- Created branch: 1766918
+	- Created branch: 1766919
+	- Created branch: 1766920
+	- Created branch: 1766921
+	- Created branch: 1766922
+- Created repo for 1ME class, named Speed3-2020-2022-ME
+	- Created welcome file
+	- Created branch: 177690
+	- Created branch: 177691
+	- Created branch: 177692
+	- Created branch: 177693
+	- Created branch: 177694
+	- Created branch: 177695
+	- Created branch: 177696
+	- Created branch: 177697
+	- Created branch: 177698
+	- Created branch: 177699
+	- Created branch: 1776910
+	- Created branch: 1776911
+	- Created branch: 1776912
+	- Created branch: 1776913
+	- Created branch: 1776914
+	- Created branch: 1776915
+	- Created branch: 1776916
+	- Created branch: 1776917
+	- Created branch: 1776918
+	- Created branch: 1776919
+	- Created branch: 1776920
+	- Created branch: 1776921
+	- Created branch: 1776922
+- Created repo for 1NE class, named Speed3-2020-2022-NE
+	- Created welcome file
+	- Created branch: 178690
+	- Created branch: 178691
+	- Created branch: 178692
+	- Created branch: 178693
+	- Created branch: 178694
+	- Created branch: 178695
+	- Created branch: 178696
+	- Created branch: 178697
+	- Created branch: 178698
+	- Created branch: 178699
+	- Created branch: 1786910
+	- Created branch: 1786911
+	- Created branch: 1786912
+	- Created branch: 1786913
+	- Created branch: 1786914
+	- Created branch: 1786915
+	- Created branch: 1786916
+	- Created branch: 1786917
+	- Created branch: 1786918
+	- Created branch: 1786919
+	- Created branch: 1786920
+	- Created branch: 1786921
+	- Created branch: 1786922
+- Created repo for 1OE class, named Speed3-2020-2022-OE
+	- Created welcome file
+
+Start: 2020-11-30 17:20:57.693940
+Input file readed
+Login done
+- Created repo for 1AI class, named Speed4-2020-2022-B-AI
+	- Created welcome file
+	- Created branch: 165730
+	- Created branch: 165731
+	- Created branch: 165732
+	- Created branch: 165733
+	- Created branch: 165734
+	- Created branch: 165735
+	- Created branch: 165736
+	- Created branch: 165737
+	- Created branch: 165738
+	- Created branch: 165739
+	- Created branch: 1657310
+	- Created branch: 1657311
+	- Created branch: 1657312
+	- Created branch: 1657313
+	- Created branch: 1657314
+	- Created branch: 1657315
+	- Created branch: 1657316
+	- Created branch: 1657317
+	- Created branch: 1657318
+	- Created branch: 1657319
+	- Created branch: 1657320
+	- Created branch: 1657321
+	- Created branch: 1657322
+- Created repo for 1BI class, named Speed4-2020-2022-B-BI
+	- Created welcome file
+	- Created branch: 166730
+	- Created branch: 166731
+	- Created branch: 166732
+	- Created branch: 166733
+	- Created branch: 166734
+	- Created branch: 166735
+	- Created branch: 166736
+	- Created branch: 166737
+	- Created branch: 166738
+	- Created branch: 166739
+	- Created branch: 1667310
+	- Created branch: 1667311
+	- Created branch: 1667312
+	- Created branch: 1667313
+	- Created branch: 1667314
+	- Created branch: 1667315
+	- Created branch: 1667316
+	- Created branch: 1667317
+	- Created branch: 1667318
+	- Created branch: 1667319
+	- Created branch: 1667320
+	- Created branch: 1667321
+	- Created branch: 1667322
+- Created repo for 1CI class, named Speed4-2020-2022-B-CI
+	- Created welcome file
+	- Created branch: 167730
+	- Created branch: 167731
+	- Created branch: 167732
+	- Created branch: 167733
+	- Created branch: 167734
+	- Created branch: 167735
+	- Created branch: 167736
+	- Created branch: 167737
+	- Created branch: 167738
+	- Created branch: 167739
+	- Created branch: 1677310
+	- Created branch: 1677311
+	- Created branch: 1677312
+	- Created branch: 1677313
+	- Created branch: 1677314
+	- Created branch: 1677315
+	- Created branch: 1677316
+	- Created branch: 1677317
+	- Created branch: 1677318
+	- Created branch: 1677319
+	- Created branch: 1677320
+	- Created branch: 1677321
+	- Created branch: 1677322
+- Created repo for 1DI class, named Speed4-2020-2022-B-DI
+	- Created welcome file
+	- Created branch: 168730
+	- Created branch: 168731
+	- Created branch: 168732
+	- Created branch: 168733
+	- Created branch: 168734
+	- Created branch: 168735
+	- Created branch: 168736
+	- Created branch: 168737
+	- Created branch: 168738
+	- Created branch: 168739
+	- Created branch: 1687310
+	- Created branch: 1687311
+	- Created branch: 1687312
+	- Created branch: 1687313
+	- Created branch: 1687314
+	- Created branch: 1687315
+	- Created branch: 1687316
+	- Created branch: 1687317
+	- Created branch: 1687318
+	- Created branch: 1687319
+	- Created branch: 1687320
+	- Created branch: 1687321
+	- Created branch: 1687322
+- Created repo for 1EI class, named Speed4-2020-2022-B-EI
+	- Created welcome file
+	- Created branch: 169730
+	- Created branch: 169731
+	- Created branch: 169732
+	- Created branch: 169733
+	- Created branch: 169734
+	- Created branch: 169735
+	- Created branch: 169736
+	- Created branch: 169737
+	- Created branch: 169738
+	- Created branch: 169739
+	- Created branch: 1697310
+	- Created branch: 1697311
+	- Created branch: 1697312
+	- Created branch: 1697313
+	- Created branch: 1697314
+	- Created branch: 1697315
+	- Created branch: 1697316
+	- Created branch: 1697317
+	- Created branch: 1697318
+	- Created branch: 1697319
+	- Created branch: 1697320
+	- Created branch: 1697321
+	- Created branch: 1697322
+- Created repo for 1FL class, named Speed4-2020-2022-B-FL
+	- Created welcome file
+	- Created branch: 170760
+	- Created branch: 170761
+	- Created branch: 170762
+	- Created branch: 170763
+	- Created branch: 170764
+	- Created branch: 170765
+	- Created branch: 170766
+	- Created branch: 170767
+	- Created branch: 170768
+	- Created branch: 170769
+	- Created branch: 1707610
+	- Created branch: 1707611
+	- Created branch: 1707612
+	- Created branch: 1707613
+	- Created branch: 1707614
+	- Created branch: 1707615
+	- Created branch: 1707616
+	- Created branch: 1707617
+	- Created branch: 1707618
+	- Created branch: 1707619
+	- Created branch: 1707620
+	- Created branch: 1707621
+	- Created branch: 1707622
+- Created repo for 1GL class, named Speed4-2020-2022-B-GL
+	- Created welcome file
+	- Created branch: 171760
+	- Created branch: 171761
+	- Created branch: 171762
+	- Created branch: 171763
+	- Created branch: 171764
+	- Created branch: 171765
+	- Created branch: 171766
+	- Created branch: 171767
+	- Created branch: 171768
+	- Created branch: 171769
+	- Created branch: 1717610
+	- Created branch: 1717611
+	- Created branch: 1717612
+	- Created branch: 1717613
+	- Created branch: 1717614
+	- Created branch: 1717615
+	- Created branch: 1717616
+	- Created branch: 1717617
+	- Created branch: 1717618
+	- Created branch: 1717619
+	- Created branch: 1717620
+	- Created branch: 1717621
+	- Created branch: 1717622
+- Created repo for 1HL class, named Speed4-2020-2022-B-HL
+	- Created welcome file
+	- Created branch: 172760
+	- Created branch: 172761
+	- Created branch: 172762
+	- Created branch: 172763
+	- Created branch: 172764
+	- Created branch: 172765
+	- Created branch: 172766
+	- Created branch: 172767
+	- Created branch: 172768
+	- Created branch: 172769
+	- Created branch: 1727610
+	- Created branch: 1727611
+	- Created branch: 1727612
+	- Created branch: 1727613
+	- Created branch: 1727614
+	- Created branch: 1727615
+	- Created branch: 1727616
+	- Created branch: 1727617
+	- Created branch: 1727618
+	- Created branch: 1727619
+	- Created branch: 1727620
+	- Created branch: 1727621
+	- Created branch: 1727622
+- Created repo for 1IL class, named Speed4-2020-2022-B-IL
+	- Created welcome file
+	- Created branch: 173760
+	- Created branch: 173761
+	- Created branch: 173762
+	- Created branch: 173763
+	- Created branch: 173764
+	- Created branch: 173765
+	- Created branch: 173766
+	- Created branch: 173767
+	- Created branch: 173768
+	- Created branch: 173769
+	- Created branch: 1737610
+	- Created branch: 1737611
+	- Created branch: 1737612
+	- Created branch: 1737613
+	- Created branch: 1737614
+	- Created branch: 1737615
+	- Created branch: 1737616
+	- Created branch: 1737617
+	- Created branch: 1737618
+	- Created branch: 1737619
+	- Created branch: 1737620
+	- Created branch: 1737621
+	- Created branch: 1737622
+- Created repo for 1LE class, named Speed4-2020-2022-B-LE
+	- Created welcome file
+	- Created branch: 176690
+	- Created branch: 176691
+	- Created branch: 176692
+	- Created branch: 176693
+	- Created branch: 176694
+	- Created branch: 176695
+	- Created branch: 176696
+	- Created branch: 176697
+	- Created branch: 176698
+	- Created branch: 176699
+	- Created branch: 1766910
+	- Created branch: 1766911
+	- Created branch: 1766912
+	- Created branch: 1766913
+	- Created branch: 1766914
+	- Created branch: 1766915
+	- Created branch: 1766916
+	- Created branch: 1766917
+	- Created branch: 1766918
+	- Created branch: 1766919
+	- Created branch: 1766920
+	- Created branch: 1766921
+	- Created branch: 1766922
+- Created repo for 1ME class, named Speed4-2020-2022-B-ME
+	- Created welcome file
+	- Created branch: 177690
+	- Created branch: 177691
+	- Created branch: 177692
+	- Created branch: 177693
+	- Created branch: 177694
+	- Created branch: 177695
+	- Created branch: 177696
+	- Created branch: 177697
+	- Created branch: 177698
+	- Created branch: 177699
+	- Created branch: 1776910
+	- Created branch: 1776911
+	- Created branch: 1776912
+	- Created branch: 1776913
+	- Created branch: 1776914
+	- Created branch: 1776915
+	- Created branch: 1776916
+	- Created branch: 1776917
+	- Created branch: 1776918
+	- Created branch: 1776919
+	- Created branch: 1776920
+	- Created branch: 1776921
+	- Created branch: 1776922
+- Created repo for 1NE class, named Speed4-2020-2022-B-NE
+	- Created welcome file
+	- Created branch: 178690
+	- Created branch: 178691
+	- Created branch: 178692
+	- Created branch: 178693
+	- Created branch: 178694
+	- Created branch: 178695
+	- Created branch: 178696
+	- Created branch: 178697
+	- Created branch: 178698
+	- Created branch: 178699
+	- Created branch: 1786910
+	- Created branch: 1786911
+	- Created branch: 1786912
+	- Created branch: 1786913
+	- Created branch: 1786914
+	- Created branch: 1786915
+	- Created branch: 1786916
+	- Created branch: 1786917
+	- Created branch: 1786918
+	- Created branch: 1786919
+	- Created branch: 1786920
+	- Created branch: 1786921
+	- Created branch: 1786922
+- Created repo for 1OE class, named Speed4-2020-2022-B-OE
+	- Created welcome file
+	- Created branch: 179690
+	- Created branch: 179691
+	- Created branch: 179692
+	- Created branch: 179693
+	- Created branch: 179694
+	- Created branch: 179695
+	- Created branch: 179696
+	- Created branch: 179697
+	- Created branch: 179698
+	- Created branch: 179699
+	- Created branch: 1796910
+	- Created branch: 1796911
+	- Created branch: 1796912
+	- Created branch: 1796913
+	- Created branch: 1796914
+	- Created branch: 1796915
+	- Created branch: 1796916
+	- Created branch: 1796917
+	- Created branch: 1796918
+	- Created branch: 1796919
+	- Created branch: 1796920
+	- Created branch: 1796921
+	- Created branch: 1796922
+- Created repo for 1PE class, named Speed4-2020-2022-B-PE
+	- Created welcome file
+	- Created branch: 180690
+	- Created branch: 180691
+	- Created branch: 180692
+	- Created branch: 180693
+	- Created branch: 180694
+	- Created branch: 180695
+	- Created branch: 180696
+	- Created branch: 180697
+	- Created branch: 180698
+	- Created branch: 180699
+	- Created branch: 1806910
+	- Created branch: 1806911
+	- Created branch: 1806912
+	- Created branch: 1806913
+	- Created branch: 1806914
+	- Created branch: 1806915
+	- Created branch: 1806916
+	- Created branch: 1806917
+	- Created branch: 1806918
+	- Created branch: 1806919
+	- Created branch: 1806920
+	- Created branch: 1806921
+	- Created branch: 1806922
+- Created repo for 2AI class, named Speed4-2020-2021-B-AI
+	- Created welcome file
+	- Created branch: 265730
+	- Created branch: 265731
+	- Created branch: 265732
+	- Created branch: 265733
+	- Created branch: 265734
+	- Created branch: 265735
+	- Created branch: 265736
+	- Created branch: 265737
+	- Created branch: 265738
+	- Created branch: 265739
+	- Created branch: 2657310
+	- Created branch: 2657311
+	- Created branch: 2657312
+	- Created branch: 2657313
+	- Created branch: 2657314
+	- Created branch: 2657315
+	- Created branch: 2657316
+	- Created branch: 2657317
+	- Created branch: 2657318
+	- Created branch: 2657319
+	- Created branch: 2657320
+	- Created branch: 2657321
+	- Created branch: 2657322
+- Created repo for 2BI class, named Speed4-2020-2021-B-BI
+	- Created welcome file
+	- Created branch: 266730
+	- Created branch: 266731
+	- Created branch: 266732
+	- Created branch: 266733
+	- Created branch: 266734
+	- Created branch: 266735
+	- Created branch: 266736
+	- Created branch: 266737
+	- Created branch: 266738
+	- Created branch: 266739
+	- Created branch: 2667310
+	- Created branch: 2667311
+	- Created branch: 2667312
+	- Created branch: 2667313
+	- Created branch: 2667314
+	- Created branch: 2667315
+	- Created branch: 2667316
+	- Created branch: 2667317
+	- Created branch: 2667318
+	- Created branch: 2667319
+	- Created branch: 2667320
+	- Created branch: 2667321
+	- Created branch: 2667322
+- Created repo for 2CI class, named Speed4-2020-2021-B-CI
+	- Created welcome file
+	- Created branch: 267730
+	- Created branch: 267731
+	- Created branch: 267732
+	- Created branch: 267733
+	- Created branch: 267734
+	- Created branch: 267735
+	- Created branch: 267736
+	- Created branch: 267737
+	- Created branch: 267738
+	- Created branch: 267739
+	- Created branch: 2677310
+	- Created branch: 2677311
+	- Created branch: 2677312
+	- Created branch: 2677313
+	- Created branch: 2677314
+	- Created branch: 2677315
+	- Created branch: 2677316
+	- Created branch: 2677317
+	- Created branch: 2677318
+	- Created branch: 2677319
+	- Created branch: 2677320
+	- Created branch: 2677321
+	- Created branch: 2677322
+- Created repo for 2DI class, named Speed4-2020-2021-B-DI
+	- Created welcome file
+	- Created branch: 268730
+	- Created branch: 268731
+	- Created branch: 268732
+	- Created branch: 268733
+	- Created branch: 268734
+	- Created branch: 268735
+	- Created branch: 268736
+	- Created branch: 268737
+	- Created branch: 268738
+	- Created branch: 268739
+	- Created branch: 2687310
+	- Created branch: 2687311
+	- Created branch: 2687312
+	- Created branch: 2687313
+	- Created branch: 2687314
+	- Created branch: 2687315
+	- Created branch: 2687316
+	- Created branch: 2687317
+	- Created branch: 2687318
+	- Created branch: 2687319
+	- Created branch: 2687320
+	- Created branch: 2687321
+	- Created branch: 2687322
+- Created repo for 2EI class, named Speed4-2020-2021-B-EI
+	- Created welcome file
+	- Created branch: 269730
+	- Created branch: 269731
+	- Created branch: 269732
+	- Created branch: 269733
+	- Created branch: 269734
+	- Created branch: 269735
+	- Created branch: 269736
+	- Created branch: 269737
+	- Created branch: 269738
+	- Created branch: 269739
+	- Created branch: 2697310
+	- Created branch: 2697311
+	- Created branch: 2697312
+	- Created branch: 2697313
+	- Created branch: 2697314
+	- Created branch: 2697315
+	- Created branch: 2697316
+	- Created branch: 2697317
+	- Created branch: 2697318
+	- Created branch: 2697319
+	- Created branch: 2697320
+	- Created branch: 2697321
+	- Created branch: 2697322
+- Created repo for 2FL class, named Speed4-2020-2021-B-FL
+	- Created welcome file
+	- Created branch: 270760
+	- Created branch: 270761
+	- Created branch: 270762
+	- Created branch: 270763
+	- Created branch: 270764
+	- Created branch: 270765
+	- Created branch: 270766
+	- Created branch: 270767
+	- Created branch: 270768
+	- Created branch: 270769
+	- Created branch: 2707610
+	- Created branch: 2707611
+	- Created branch: 2707612
+	- Created branch: 2707613
+	- Created branch: 2707614
+	- Created branch: 2707615
+	- Created branch: 2707616
+	- Created branch: 2707617
+	- Created branch: 2707618
+	- Created branch: 2707619
+	- Created branch: 2707620
+	- Created branch: 2707621
+	- Created branch: 2707622
+- Created repo for 2GL class, named Speed4-2020-2021-B-GL
+	- Created welcome file
+	- Created branch: 271760
+	- Created branch: 271761
+	- Created branch: 271762
+	- Created branch: 271763
+	- Created branch: 271764
+	- Created branch: 271765
+	- Created branch: 271766
+	- Created branch: 271767
+	- Created branch: 271768
+	- Created branch: 271769
+	- Created branch: 2717610
+	- Created branch: 2717611
+	- Created branch: 2717612
+	- Created branch: 2717613
+	- Created branch: 2717614
+	- Created branch: 2717615
+	- Created branch: 2717616
+	- Created branch: 2717617
+	- Created branch: 2717618
+	- Created branch: 2717619
+	- Created branch: 2717620
+	- Created branch: 2717621
+	- Created branch: 2717622
+- Created repo for 2HL class, named Speed4-2020-2021-B-HL
+	- Created welcome file
+	- Created branch: 272760
+	- Created branch: 272761
+	- Created branch: 272762
+	- Created branch: 272763
+	- Created branch: 272764
+	- Created branch: 272765
+	- Created branch: 272766
+	- Created branch: 272767
+	- Created branch: 272768
+	- Created branch: 272769
+	- Created branch: 2727610
+	- Created branch: 2727611
+	- Created branch: 2727612
+	- Created branch: 2727613
+	- Created branch: 2727614
+	- Created branch: 2727615
+	- Created branch: 2727616
+	- Created branch: 2727617
+	- Created branch: 2727618
+	- Created branch: 2727619
+	- Created branch: 2727620
+	- Created branch: 2727621
+	- Created branch: 2727622
+- Created repo for 2IL class, named Speed4-2020-2021-B-IL
+	- Created welcome file
+	- Created branch: 273760
+	- Created branch: 273761
+	- Created branch: 273762
+	- Created branch: 273763
+	- Created branch: 273764
+	- Created branch: 273765
+	- Created branch: 273766
+	- Created branch: 273767
+	- Created branch: 273768
+	- Created branch: 273769
+	- Created branch: 2737610
+	- Created branch: 2737611
+	- Created branch: 2737612
+	- Created branch: 2737613
+	- Created branch: 2737614
+	- Created branch: 2737615
+	- Created branch: 2737616
+	- Created branch: 2737617
+	- Created branch: 2737618
+	- Created branch: 2737619
+	- Created branch: 2737620
+	- Created branch: 2737621
+	- Created branch: 2737622
+- Created repo for 2LE class, named Speed4-2020-2021-B-LE
+	- Created welcome file
+	- Created branch: 276690
+	- Created branch: 276691
+	- Created branch: 276692
+	- Created branch: 276693
+	- Created branch: 276694
+	- Created branch: 276695
+	- Created branch: 276696
+	- Created branch: 276697
+	- Created branch: 276698
+	- Created branch: 276699
+	- Created branch: 2766910
+	- Created branch: 2766911
+	- Created branch: 2766912
+	- Created branch: 2766913
+	- Created branch: 2766914
+	- Created branch: 2766915
+	- Created branch: 2766916
+	- Created branch: 2766917
+	- Created branch: 2766918
+	- Created branch: 2766919
+	- Created branch: 2766920
+	- Created branch: 2766921
+	- Created branch: 2766922
+- Created repo for 2ME class, named Speed4-2020-2021-B-ME
+	- Created welcome file
+	- Created branch: 277690
+	- Created branch: 277691
+	- Created branch: 277692
+	- Created branch: 277693
+	- Created branch: 277694
+	- Created branch: 277695
+	- Created branch: 277696
+	- Created branch: 277697
+	- Created branch: 277698
+	- Created branch: 277699
+	- Created branch: 2776910
+	- Created branch: 2776911
+	- Created branch: 2776912
+	- Created branch: 2776913
+	- Created branch: 2776914
+	- Created branch: 2776915
+	- Created branch: 2776916
+	- Created branch: 2776917
+	- Created branch: 2776918
+	- Created branch: 2776919
+	- Created branch: 2776920
+	- Created branch: 2776921
+	- Created branch: 2776922
+- Created repo for 2NE class, named Speed4-2020-2021-B-NE
+	- Created welcome file
+	- Created branch: 278690
+	- Created branch: 278691
+	- Created branch: 278692
+	- Created branch: 278693
+	- Created branch: 278694
+	- Created branch: 278695
+	- Created branch: 278696
+	- Created branch: 278697
+	- Created branch: 278698
+	- Created branch: 278699
+	- Created branch: 2786910
+	- Created branch: 2786911
+	- Created branch: 2786912
+	- Created branch: 2786913
+	- Created branch: 2786914
+	- Created branch: 2786915
+	- Created branch: 2786916
+	- Created branch: 2786917
+	- Created branch: 2786918
+	- Created branch: 2786919
+	- Created branch: 2786920
+	- Created branch: 2786921
+	- Created branch: 2786922
+- Created repo for 2OE class, named Speed4-2020-2021-B-OE
+	- Created welcome file
+	- Created branch: 279690
+	- Created branch: 279691
+	- Created branch: 279692
+	- Created branch: 279693
+	- Created branch: 279694
+	- Created branch: 279695
+	- Created branch: 279696
+	- Created branch: 279697
+	- Created branch: 279698
+	- Created branch: 279699
+	- Created branch: 2796910
+	- Created branch: 2796911
+	- Created branch: 2796912
+	- Created branch: 2796913
+	- Created branch: 2796914
+	- Created branch: 2796915
+	- Created branch: 2796916
+	- Created branch: 2796917
+	- Created branch: 2796918
+	- Created branch: 2796919
+	- Created branch: 2796920
+	- Created branch: 2796921
+	- Created branch: 2796922
+- Created repo for 2PE class, named Speed4-2020-2021-B-PE
+	- Created welcome file
+	- Created branch: 280690
+	- Created branch: 280691
+	- Created branch: 280692
+	- Created branch: 280693
+	- Created branch: 280694
+	- Created branch: 280695
+	- Created branch: 280696
+	- Created branch: 280697
+	- Created branch: 280698
+	- Created branch: 280699
+	- Created branch: 2806910
+	- Created branch: 2806911
+	- Created branch: 2806912
+	- Created branch: 2806913
+	- Created branch: 2806914
+	- Created branch: 2806915
+	- Created branch: 2806916
+	- Created branch: 2806917
+	- Created branch: 2806918
+	- Created branch: 2806919
+	- Created branch: 2806920
+	- Created branch: 2806921
+	- Created branch: 2806922
+- Created repo for 3AI class, named Speed4-2020-2023-T-AI
+	- Created welcome file
+	- Created branch: 365730
+	- Created branch: 365731
+	- Created branch: 365732
+	- Created branch: 365733
+	- Created branch: 365734
+	- Created branch: 365735
+	- Created branch: 365736
+	- Created branch: 365737
+	- Created branch: 365738
+	- Created branch: 365739
+	- Created branch: 3657310
+	- Created branch: 3657311
+	- Created branch: 3657312
+	- Created branch: 3657313
+	- Created branch: 3657314
+	- Created branch: 3657315
+	- Created branch: 3657316
+	- Created branch: 3657317
+	- Created branch: 3657318
+	- Created branch: 3657319
+	- Created branch: 3657320
+	- Created branch: 3657321
+	- Created branch: 3657322
+- Created repo for 3BI class, named Speed4-2020-2023-T-BI
+	- Created welcome file
+	- Created branch: 366730
+	- Created branch: 366731
+	- Created branch: 366732
+	- Created branch: 366733
+	- Created branch: 366734
+	- Created branch: 366735
+	- Created branch: 366736
+	- Created branch: 366737
+	- Created branch: 366738
+	- Created branch: 366739
+	- Created branch: 3667310
+	- Created branch: 3667311
+	- Created branch: 3667312
+	- Created branch: 3667313
+	- Created branch: 3667314
+	- Created branch: 3667315
+	- Created branch: 3667316
+	- Created branch: 3667317
+	- Created branch: 3667318
+	- Created branch: 3667319
+	- Created branch: 3667320
+	- Created branch: 3667321
+	- Created branch: 3667322
+- Created repo for 3CI class, named Speed4-2020-2023-T-CI
+	- Created welcome file
+	- Created branch: 367730
+	- Created branch: 367731
+	- Created branch: 367732
+	- Created branch: 367733
+	- Created branch: 367734
+	- Created branch: 367735
+	- Created branch: 367736
+	- Created branch: 367737
+	- Created branch: 367738
+	- Created branch: 367739
+	- Created branch: 3677310
+	- Created branch: 3677311
+	- Created branch: 3677312
+	- Created branch: 3677313
+	- Created branch: 3677314
+	- Created branch: 3677315
+	- Created branch: 3677316
+	- Created branch: 3677317
+	- Created branch: 3677318
+	- Created branch: 3677319
+	- Created branch: 3677320
+	- Created branch: 3677321
+	- Created branch: 3677322
+- Created repo for 3DI class, named Speed4-2020-2023-T-DI
+	- Created welcome file
+	- Created branch: 368730
+	- Created branch: 368731
+	- Created branch: 368732
+	- Created branch: 368733
+	- Created branch: 368734
+	- Created branch: 368735
+	- Created branch: 368736
+	- Created branch: 368737
+	- Created branch: 368738
+	- Created branch: 368739
+	- Created branch: 3687310
+	- Created branch: 3687311
+	- Created branch: 3687312
+	- Created branch: 3687313
+	- Created branch: 3687314
+	- Created branch: 3687315
+	- Created branch: 3687316
+	- Created branch: 3687317
+	- Created branch: 3687318
+	- Created branch: 3687319
+	- Created branch: 3687320
+	- Created branch: 3687321
+	- Created branch: 3687322
+- Created repo for 3EI class, named Speed4-2020-2023-T-EI
+	- Created welcome file
+	- Created branch: 369730
+	- Created branch: 369731
+	- Created branch: 369732
+	- Created branch: 369733
+	- Created branch: 369734
+	- Created branch: 369735
+	- Created branch: 369736
+	- Created branch: 369737
+	- Created branch: 369738
+	- Created branch: 369739
+	- Created branch: 3697310
+	- Created branch: 3697311
+	- Created branch: 3697312
+	- Created branch: 3697313
+	- Created branch: 3697314
+	- Created branch: 3697315
+	- Created branch: 3697316
+	- Created branch: 3697317
+	- Created branch: 3697318
+	- Created branch: 3697319
+	- Created branch: 3697320
+	- Created branch: 3697321
+	- Created branch: 3697322
+- Created repo for 3FL class, named Speed4-2020-2023-T-FL
+	- Created welcome file
+	- Created branch: 370760
+	- Created branch: 370761
+	- Created branch: 370762
+	- Created branch: 370763
+	- Created branch: 370764
+	- Created branch: 370765
+	- Created branch: 370766
+	- Created branch: 370767
+	- Created branch: 370768
+	- Created branch: 370769
+	- Created branch: 3707610
+	- Created branch: 3707611
+	- Created branch: 3707612
+	- Created branch: 3707613
+	- Created branch: 3707614
+	- Created branch: 3707615
+	- Created branch: 3707616
+	- Created branch: 3707617
+	- Created branch: 3707618
+	- Created branch: 3707619
+	- Created branch: 3707620
+	- Created branch: 3707621
+	- Created branch: 3707622
+- Created repo for 3GL class, named Speed4-2020-2023-T-GL
+	- Created welcome file
+	- Created branch: 371760
+	- Created branch: 371761
+	- Created branch: 371762
+	- Created branch: 371763
+	- Created branch: 371764
+	- Created branch: 371765
+	- Created branch: 371766
+	- Created branch: 371767
+	- Created branch: 371768
+	- Created branch: 371769
+	- Created branch: 3717610
+	- Created branch: 3717611
+	- Created branch: 3717612
+	- Created branch: 3717613
+	- Created branch: 3717614
+	- Created branch: 3717615
+	- Created branch: 3717616
+	- Created branch: 3717617
+	- Created branch: 3717618
+	- Created branch: 3717619
+	- Created branch: 3717620
+	- Created branch: 3717621
+	- Created branch: 3717622
+- Created repo for 3HL class, named Speed4-2020-2023-T-HL
+	- Created welcome file
+	- Created branch: 372760
+	- Created branch: 372761
+	- Created branch: 372762
+	- Created branch: 372763
+	- Created branch: 372764
+	- Created branch: 372765
+	- Created branch: 372766
+	- Created branch: 372767
+	- Created branch: 372768
+	- Created branch: 372769
+	- Created branch: 3727610
+	- Created branch: 3727611
+	- Created branch: 3727612
+	- Created branch: 3727613
+	- Created branch: 3727614
+	- Created branch: 3727615
+	- Created branch: 3727616
+	- Created branch: 3727617
+	- Created branch: 3727618
+	- Created branch: 3727619
+	- Created branch: 3727620
+	- Created branch: 3727621
+	- Created branch: 3727622
+- Created repo for 3IL class, named Speed4-2020-2023-T-IL
+	- Created welcome file
+	- Created branch: 373760
+	- Created branch: 373761
+	- Created branch: 373762
+	- Created branch: 373763
+	- Created branch: 373764
+	- Created branch: 373765
+	- Created branch: 373766
+	- Created branch: 373767
+	- Created branch: 373768
+	- Created branch: 373769
+	- Created branch: 3737610
+	- Created branch: 3737611
+	- Created branch: 3737612
+	- Created branch: 3737613
+	- Created branch: 3737614
+	- Created branch: 3737615
+	- Created branch: 3737616
+	- Created branch: 3737617
+	- Created branch: 3737618
+	- Created branch: 3737619
+	- Created branch: 3737620
+	- Created branch: 3737621
+	- Created branch: 3737622
+- Created repo for 3LE class, named Speed4-2020-2023-T-LE
+	- Created welcome file
+	- Created branch: 376690
+	- Created branch: 376691
+	- Created branch: 376692
+	- Created branch: 376693
+	- Created branch: 376694
+	- Created branch: 376695
+	- Created branch: 376696
+	- Created branch: 376697
+	- Created branch: 376698
+	- Created branch: 376699
+	- Created branch: 3766910
+	- Created branch: 3766911
+	- Created branch: 3766912
+	- Created branch: 3766913
+	- Created branch: 3766914
+	- Created branch: 3766915
+	- Created branch: 3766916
+	- Created branch: 3766917
+	- Created branch: 3766918
+	- Created branch: 3766919
+	- Created branch: 3766920
+	- Created branch: 3766921
+	- Created branch: 3766922
+- Created repo for 3ME class, named Speed4-2020-2023-T-ME
+	- Created welcome file
+	- Created branch: 377690
+	- Created branch: 377691
+	- Created branch: 377692
+	- Created branch: 377693
+	- Created branch: 377694
+	- Created branch: 377695
+	- Created branch: 377696
+	- Created branch: 377697
+	- Created branch: 377698
+	- Created branch: 377699
+	- Created branch: 3776910
+	- Created branch: 3776911
+	- Created branch: 3776912
+	- Created branch: 3776913
+	- Created branch: 3776914
+	- Created branch: 3776915
+	- Created branch: 3776916
+	- Created branch: 3776917
+	- Created branch: 3776918
+	- Created branch: 3776919
+	- Created branch: 3776920
+	- Created branch: 3776921
+	- Created branch: 3776922
+- Created repo for 3NE class, named Speed4-2020-2023-T-NE
+	- Created welcome file
+	- Created branch: 378690
+	- Created branch: 378691
+	- Created branch: 378692
+	- Created branch: 378693
+	- Created branch: 378694
+	- Created branch: 378695
+	- Created branch: 378696
+	- Created branch: 378697
+	- Created branch: 378698
+	- Created branch: 378699
+	- Branch already exists: 3786910
+	- Created branch: 3786911
+	- Created branch: 3786912
+	- Created branch: 3786913
+	- Created branch: 3786914
+	- Created branch: 3786915
+	- Created branch: 3786916
+	- Created branch: 3786917
+	- Created branch: 3786918
+	- Created branch: 3786919
+	- Created branch: 3786920
+	- Created branch: 3786921
+	- Created branch: 3786922
+- Created repo for 3OE class, named Speed4-2020-2023-T-OE
+	- Created welcome file
+	- Created branch: 379690
+	- Created branch: 379691
+	- Created branch: 379692
+	- Created branch: 379693
+	- Created branch: 379694
+	- Created branch: 379695
+	- Created branch: 379696
+	- Created branch: 379697
+	- Created branch: 379698
+	- Created branch: 379699
+	- Created branch: 3796910
+	- Created branch: 3796911
+	- Created branch: 3796912
+	- Created branch: 3796913
+	- Created branch: 3796914
+	- Created branch: 3796915
+	- Created branch: 3796916
+	- Created branch: 3796917
+	- Created branch: 3796918
+	- Created branch: 3796919
+	- Created branch: 3796920
+	- Created branch: 3796921
+	- Created branch: 3796922
+- Created repo for 3PE class, named Speed4-2020-2023-T-PE
+	- Created welcome file
+	- Created branch: 380690
+	- Created branch: 380691
+	- Created branch: 380692
+	- Created branch: 380693
+	- Created branch: 380694
+	- Created branch: 380695
+	- Created branch: 380696
+	- Created branch: 380697
+	- Created branch: 380698
+	- Created branch: 380699
+	- Created branch: 3806910
+	- Created branch: 3806911
+	- Created branch: 3806912
+	- Created branch: 3806913
+	- Created branch: 3806914
+	- Created branch: 3806915
+	- Created branch: 3806916
+	- Created branch: 3806917
+	- Created branch: 3806918
+	- Created branch: 3806919
+	- Created branch: 3806920
+	- Created branch: 3806921
+	- Created branch: 3806922
+- Created repo for 4AI class, named Speed4-2020-2022-T-AI
+	- Created welcome file
+	- Created branch: 465730
+	- Created branch: 465731
+	- Created branch: 465732
+	- Created branch: 465733
+	- Created branch: 465734
+	- Created branch: 465735
+	- Created branch: 465736
+	- Created branch: 465737
+	- Created branch: 465738
+	- Created branch: 465739
+	- Created branch: 4657310
+	- Created branch: 4657311
+	- Created branch: 4657312
+	- Created branch: 4657313
+	- Created branch: 4657314
+	- Created branch: 4657315
+	- Created branch: 4657316
+	- Created branch: 4657317
+	- Created branch: 4657318
+	- Created branch: 4657319
+	- Created branch: 4657320
+	- Created branch: 4657321
+	- Created branch: 4657322
+- Created repo for 4BI class, named Speed4-2020-2022-T-BI
+	- Created welcome file
+	- Created branch: 466730
+	- Created branch: 466731
+	- Created branch: 466732
+	- Created branch: 466733
+	- Created branch: 466734
+	- Created branch: 466735
+	- Created branch: 466736
+	- Created branch: 466737
+	- Created branch: 466738
+	- Created branch: 466739
+	- Created branch: 4667310
+	- Created branch: 4667311
+	- Created branch: 4667312
+	- Created branch: 4667313
+	- Created branch: 4667314
+	- Created branch: 4667315
+	- Created branch: 4667316
+	- Created branch: 4667317
+	- Created branch: 4667318
+	- Created branch: 4667319
+	- Created branch: 4667320
+	- Created branch: 4667321
+	- Created branch: 4667322
+- Created repo for 4CI class, named Speed4-2020-2022-T-CI
+	- Created welcome file
+	- Created branch: 467730
+	- Created branch: 467731
+	- Created branch: 467732
+	- Created branch: 467733
+	- Created branch: 467734
+	- Created branch: 467735
+	- Created branch: 467736
+	- Created branch: 467737
+	- Created branch: 467738
+	- Created branch: 467739
+	- Created branch: 4677310
+	- Created branch: 4677311
+	- Created branch: 4677312
+	- Created branch: 4677313
+	- Created branch: 4677314
+	- Created branch: 4677315
+	- Created branch: 4677316
+	- Created branch: 4677317
+	- Created branch: 4677318
+	- Created branch: 4677319
+	- Created branch: 4677320
+	- Created branch: 4677321
+	- Created branch: 4677322
+- Created repo for 4DI class, named Speed4-2020-2022-T-DI
+	- Created welcome file
+	- Created branch: 468730
+	- Created branch: 468731
+	- Created branch: 468732
+	- Created branch: 468733
+	- Created branch: 468734
+	- Created branch: 468735
+	- Created branch: 468736
+	- Created branch: 468737
+	- Created branch: 468738
+	- Created branch: 468739
+	- Created branch: 4687310
+	- Created branch: 4687311
+	- Created branch: 4687312
+	- Created branch: 4687313
+	- Created branch: 4687314
+	- Created branch: 4687315
+	- Created branch: 4687316
+	- Created branch: 4687317
+	- Created branch: 4687318
+	- Created branch: 4687319
+	- Created branch: 4687320
+	- Created branch: 4687321
+	- Created branch: 4687322
+- Created repo for 4EI class, named Speed4-2020-2022-T-EI
+	- Created welcome file
+	- Created branch: 469730
+	- Created branch: 469731
+	- Created branch: 469732
+	- Created branch: 469733
+	- Created branch: 469734
+	- Created branch: 469735
+	- Created branch: 469736
+	- Created branch: 469737
+	- Created branch: 469738
+	- Created branch: 469739
+	- Created branch: 4697310
+	- Created branch: 4697311
+	- Created branch: 4697312
+	- Created branch: 4697313
+	- Created branch: 4697314
+	- Created branch: 4697315
+	- Created branch: 4697316
+	- Created branch: 4697317
+	- Created branch: 4697318
+	- Created branch: 4697319
+	- Created branch: 4697320
+	- Created branch: 4697321
+	- Created branch: 4697322
+- Created repo for 4FL class, named Speed4-2020-2022-T-FL
+	- Created welcome file
+	- Created branch: 470760
+	- Created branch: 470761
+	- Created branch: 470762
+	- Created branch: 470763
+	- Created branch: 470764
+	- Created branch: 470765
+	- Created branch: 470766
+	- Created branch: 470767
+	- Created branch: 470768
+	- Created branch: 470769
+	- Created branch: 4707610
+	- Created branch: 4707611
+	- Created branch: 4707612
+	- Created branch: 4707613
+	- Created branch: 4707614
+	- Created branch: 4707615
+	- Created branch: 4707616
+	- Created branch: 4707617
+	- Created branch: 4707618
+	- Created branch: 4707619
+	- Created branch: 4707620
+	- Created branch: 4707621
+	- Created branch: 4707622
+- Created repo for 4GL class, named Speed4-2020-2022-T-GL
+	- Created welcome file
+	- Created branch: 471760
+	- Created branch: 471761
+	- Created branch: 471762
+	- Created branch: 471763
+	- Created branch: 471764
+	- Created branch: 471765
+	- Created branch: 471766
+	- Created branch: 471767
+	- Created branch: 471768
+	- Created branch: 471769
+	- Created branch: 4717610
+	- Created branch: 4717611
+	- Created branch: 4717612
+	- Created branch: 4717613
+	- Created branch: 4717614
+	- Created branch: 4717615
+	- Created branch: 4717616
+	- Created branch: 4717617
+	- Created branch: 4717618
+	- Created branch: 4717619
+	- Created branch: 4717620
+	- Created branch: 4717621
+	- Created branch: 4717622
+- Created repo for 4HL class, named Speed4-2020-2022-T-HL
+	- Created welcome file
+	- Created branch: 472760
+	- Created branch: 472761
+	- Created branch: 472762
+	- Created branch: 472763
+	- Created branch: 472764
+	- Created branch: 472765
+	- Created branch: 472766
+	- Created branch: 472767
+	- Created branch: 472768
+	- Created branch: 472769
+	- Created branch: 4727610
+	- Created branch: 4727611
+	- Created branch: 4727612
+	- Created branch: 4727613
+	- Created branch: 4727614
+	- Created branch: 4727615
+	- Created branch: 4727616
+	- Created branch: 4727617
+	- Created branch: 4727618
+	- Created branch: 4727619
+	- Created branch: 4727620
+	- Created branch: 4727621
+	- Created branch: 4727622
+- Created repo for 4IL class, named Speed4-2020-2022-T-IL
+	- Created welcome file
+	- Created branch: 473760
+	- Created branch: 473761
+	- Created branch: 473762
+	- Created branch: 473763
+	- Created branch: 473764
+	- Created branch: 473765
+	- Created branch: 473766
+	- Created branch: 473767
+	- Created branch: 473768
+	- Created branch: 473769
+	- Created branch: 4737610
+	- Created branch: 4737611
+	- Created branch: 4737612
+	- Created branch: 4737613
+	- Created branch: 4737614
+	- Created branch: 4737615
+	- Created branch: 4737616
+	- Created branch: 4737617
+	- Created branch: 4737618
+	- Created branch: 4737619
+	- Created branch: 4737620
+	- Created branch: 4737621
+	- Created branch: 4737622
+- Created repo for 4LE class, named Speed4-2020-2022-T-LE
+	- Created welcome file
+	- Created branch: 476690
+	- Created branch: 476691
+	- Created branch: 476692
+	- Created branch: 476693
+	- Created branch: 476694
+	- Created branch: 476695
+	- Created branch: 476696
+	- Created branch: 476697
+	- Created branch: 476698
+	- Created branch: 476699
+	- Created branch: 4766910
+	- Created branch: 4766911
+	- Created branch: 4766912
+	- Created branch: 4766913
+	- Created branch: 4766914
+	- Created branch: 4766915
+	- Created branch: 4766916
+	- Created branch: 4766917
+	- Created branch: 4766918
+	- Created branch: 4766919
+	- Created branch: 4766920
+	- Created branch: 4766921
+	- Created branch: 4766922
+- Created repo for 4ME class, named Speed4-2020-2022-T-ME
+	- Created welcome file
+	- Created branch: 477690
+	- Created branch: 477691
+	- Created branch: 477692
+	- Created branch: 477693
+	- Created branch: 477694
+	- Created branch: 477695
+	- Created branch: 477696
+	- Created branch: 477697
+	- Created branch: 477698
+	- Created branch: 477699
+	- Created branch: 4776910
+	- Created branch: 4776911
+	- Created branch: 4776912
+	- Created branch: 4776913
+	- Created branch: 4776914
+	- Created branch: 4776915
+	- Created branch: 4776916
+	- Created branch: 4776917
+	- Created branch: 4776918
+	- Created branch: 4776919
+	- Created branch: 4776920
+	- Created branch: 4776921
+	- Created branch: 4776922
+- Created repo for 4NE class, named Speed4-2020-2022-T-NE
+	- Created welcome file
+	- Created branch: 478690
+	- Created branch: 478691
+	- Created branch: 478692
+	- Created branch: 478693
+	- Created branch: 478694
+	- Created branch: 478695
+	- Created branch: 478696
+	- Created branch: 478697
+	- Created branch: 478698
+	- Created branch: 478699
+	- Created branch: 4786910
+	- Created branch: 4786911
+	- Created branch: 4786912
+	- Created branch: 4786913
+	- Created branch: 4786914
+	- Created branch: 4786915
+	- Created branch: 4786916
+	- Created branch: 4786917
+	- Created branch: 4786918
+	- Created branch: 4786919
+	- Created branch: 4786920
+	- Created branch: 4786921
+	- Created branch: 4786922
+- Created repo for 4OE class, named Speed4-2020-2022-T-OE
+	- Created welcome file
+	- Created branch: 479690
+	- Created branch: 479691
+	- Created branch: 479692
+	- Created branch: 479693
+	- Created branch: 479694
+	- Created branch: 479695
+	- Created branch: 479696
+	- Created branch: 479697
+	- Created branch: 479698
+	- Created branch: 479699
+	- Created branch: 4796910
+	- Created branch: 4796911
+	- Created branch: 4796912
+	- Created branch: 4796913
+	- Created branch: 4796914
+	- Created branch: 4796915
+	- Created branch: 4796916
+	- Created branch: 4796917
+	- Created branch: 4796918
+	- Created branch: 4796919
+	- Created branch: 4796920
+	- Created branch: 4796921
+	- Created branch: 4796922
+- Created repo for 4PE class, named Speed4-2020-2022-T-PE
+	- Created welcome file
+	- Created branch: 480690
+	- Created branch: 480691
+	- Created branch: 480692
+	- Created branch: 480693
+	- Created branch: 480694
+	- Created branch: 480695
+	- Created branch: 480696
+	- Created branch: 480697
+	- Created branch: 480698
+	- Created branch: 480699
+	- Created branch: 4806910
+	- Created branch: 4806911
+	- Created branch: 4806912
+	- Created branch: 4806913
+	- Created branch: 4806914
+	- Created branch: 4806915
+	- Created branch: 4806916
+	- Created branch: 4806917
+	- Created branch: 4806918
+	- Created branch: 4806919
+	- Created branch: 4806920
+	- Created branch: 4806921
+	- Created branch: 4806922
+- Created repo for 5AI class, named Speed4-2020-2021-T-AI
+	- Created welcome file
+	- Created branch: 565730
+	- Created branch: 565731
+	- Created branch: 565732
+	- Created branch: 565733
+	- Created branch: 565734
+	- Created branch: 565735
+	- Created branch: 565736
+	- Created branch: 565737
+	- Created branch: 565738
+	- Created branch: 565739
+	- Created branch: 5657310
+	- Created branch: 5657311
+	- Created branch: 5657312
+	- Created branch: 5657313
+	- Created branch: 5657314
+	- Created branch: 5657315
+	- Created branch: 5657316
+	- Created branch: 5657317
+	- Created branch: 5657318
+	- Created branch: 5657319
+	- Created branch: 5657320
+	- Created branch: 5657321
+	- Created branch: 5657322
+- Created repo for 5BI class, named Speed4-2020-2021-T-BI
+	- Created welcome file
+	- Created branch: 566730
+	- Created branch: 566731
+	- Created branch: 566732
+	- Created branch: 566733
+	- Created branch: 566734
+	- Created branch: 566735
+	- Created branch: 566736
+	- Created branch: 566737
+	- Created branch: 566738
+	- Created branch: 566739
+	- Created branch: 5667310
+	- Created branch: 5667311
+	- Created branch: 5667312
+	- Created branch: 5667313
+	- Created branch: 5667314
+	- Created branch: 5667315
+	- Created branch: 5667316
+	- Created branch: 5667317
+	- Created branch: 5667318
+	- Created branch: 5667319
+	- Created branch: 5667320
+	- Created branch: 5667321
+	- Created branch: 5667322
+- Created repo for 5CI class, named Speed4-2020-2021-T-CI
+	- Created welcome file
+	- Created branch: 567730
+	- Created branch: 567731
+	- Created branch: 567732
+	- Created branch: 567733
+	- Created branch: 567734
+	- Created branch: 567735
+	- Created branch: 567736
+	- Created branch: 567737
+	- Created branch: 567738
+	- Created branch: 567739
+	- Created branch: 5677310
+	- Created branch: 5677311
+	- Created branch: 5677312
+	- Created branch: 5677313
+	- Created branch: 5677314
+	- Created branch: 5677315
+	- Created branch: 5677316
+	- Created branch: 5677317
+	- Created branch: 5677318
+	- Created branch: 5677319
+	- Created branch: 5677320
+	- Created branch: 5677321
+	- Created branch: 5677322
+- Created repo for 5DI class, named Speed4-2020-2021-T-DI
+	- Created welcome file
+	- Created branch: 568730
+	- Created branch: 568731
+	- Created branch: 568732
+	- Created branch: 568733
+	- Created branch: 568734
+	- Created branch: 568735
+	- Created branch: 568736
+	- Created branch: 568737
+	- Created branch: 568738
+	- Created branch: 568739
+	- Created branch: 5687310
+	- Created branch: 5687311
+	- Created branch: 5687312
+	- Created branch: 5687313
+	- Created branch: 5687314
+	- Created branch: 5687315
+	- Created branch: 5687316
+	- Created branch: 5687317
+	- Created branch: 5687318
+	- Created branch: 5687319
+	- Created branch: 5687320
+	- Created branch: 5687321
+	- Created branch: 5687322
+- Created repo for 5EI class, named Speed4-2020-2021-T-EI
+	- Created welcome file
+	- Created branch: 569730
+	- Created branch: 569731
+	- Created branch: 569732
+	- Created branch: 569733
+	- Created branch: 569734
+	- Created branch: 569735
+	- Created branch: 569736
+	- Created branch: 569737
+	- Created branch: 569738
+	- Created branch: 569739
+	- Created branch: 5697310
+	- Created branch: 5697311
+	- Created branch: 5697312
+	- Created branch: 5697313
+	- Created branch: 5697314
+	- Created branch: 5697315
+	- Created branch: 5697316
+	- Created branch: 5697317
+	- Created branch: 5697318
+	- Created branch: 5697319
+	- Created branch: 5697320
+	- Created branch: 5697321
+	- Created branch: 5697322
+- Created repo for 5FL class, named Speed4-2020-2021-T-FL
+	- Created welcome file
+	- Created branch: 570760
+	- Created branch: 570761
+	- Created branch: 570762
+	- Created branch: 570763
+	- Created branch: 570764
+	- Created branch: 570765
+	- Created branch: 570766
+	- Created branch: 570767
+	- Created branch: 570768
+	- Created branch: 570769
+	- Created branch: 5707610
+	- Created branch: 5707611
+	- Created branch: 5707612
+	- Created branch: 5707613
+	- Created branch: 5707614
+	- Created branch: 5707615
+	- Created branch: 5707616
+	- Created branch: 5707617
+	- Created branch: 5707618
+	- Created branch: 5707619
+	- Created branch: 5707620
+	- Created branch: 5707621
+	- Created branch: 5707622
+- Created repo for 5GL class, named Speed4-2020-2021-T-GL
+	- Created welcome file
+	- Created branch: 571760
+	- Created branch: 571761
+	- Created branch: 571762
+	- Created branch: 571763
+	- Created branch: 571764
+	- Created branch: 571765
+	- Created branch: 571766
+	- Created branch: 571767
+	- Created branch: 571768
+	- Created branch: 571769
+	- Created branch: 5717610
+	- Created branch: 5717611
+	- Created branch: 5717612
+	- Created branch: 5717613
+	- Created branch: 5717614
+	- Created branch: 5717615
+	- Created branch: 5717616
+	- Created branch: 5717617
+	- Created branch: 5717618
+	- Created branch: 5717619
+	- Created branch: 5717620
+	- Created branch: 5717621
+	- Created branch: 5717622
+- Created repo for 5HL class, named Speed4-2020-2021-T-HL
+	- Created welcome file
+	- Created branch: 572760
+	- Created branch: 572761
+	- Created branch: 572762
+	- Created branch: 572763
+	- Created branch: 572764
+	- Created branch: 572765
+	- Created branch: 572766
+	- Created branch: 572767
+	- Created branch: 572768
+	- Created branch: 572769
+	- Created branch: 5727610
+	- Created branch: 5727611
+	- Created branch: 5727612
+	- Created branch: 5727613
+	- Created branch: 5727614
+	- Created branch: 5727615
+	- Created branch: 5727616
+	- Created branch: 5727617
+	- Created branch: 5727618
+	- Created branch: 5727619
+	- Created branch: 5727620
+	- Created branch: 5727621
+	- Created branch: 5727622
+- Created repo for 5IL class, named Speed4-2020-2021-T-IL
+	- Created welcome file
+	- Created branch: 573760
+	- Created branch: 573761
+	- Created branch: 573762
+	- Created branch: 573763
+	- Created branch: 573764
+	- Created branch: 573765
+	- Created branch: 573766
+	- Created branch: 573767
+	- Created branch: 573768
+	- Created branch: 573769
+	- Created branch: 5737610
+	- Created branch: 5737611
+	- Created branch: 5737612
+	- Created branch: 5737613
+	- Created branch: 5737614
+	- Created branch: 5737615
+	- Created branch: 5737616
+	- Created branch: 5737617
+	- Created branch: 5737618
+	- Created branch: 5737619
+	- Created branch: 5737620
+	- Created branch: 5737621
+	- Created branch: 5737622
+- Created repo for 5LE class, named Speed4-2020-2021-T-LE
+	- Created welcome file
+	- Created branch: 576690
+	- Created branch: 576691
+	- Created branch: 576692
+	- Created branch: 576693
+	- Created branch: 576694
+	- Created branch: 576695
+	- Created branch: 576696
+	- Created branch: 576697
+	- Created branch: 576698
+	- Created branch: 576699
+	- Created branch: 5766910
+	- Created branch: 5766911
+	- Created branch: 5766912
+	- Created branch: 5766913
+	- Created branch: 5766914
+	- Created branch: 5766915
+	- Created branch: 5766916
+	- Created branch: 5766917
+	- Created branch: 5766918
+	- Created branch: 5766919
+	- Created branch: 5766920
+	- Created branch: 5766921
+	- Created branch: 5766922
+- Created repo for 5ME class, named Speed4-2020-2021-T-ME
+	- Created welcome file
+	- Created branch: 577690
+	- Created branch: 577691
+	- Created branch: 577692
+	- Created branch: 577693
+	- Created branch: 577694
+	- Created branch: 577695
+	- Created branch: 577696
+	- Created branch: 577697
+	- Created branch: 577698
+	- Created branch: 577699
+	- Created branch: 5776910
+	- Created branch: 5776911
+	- Created branch: 5776912
+	- Created branch: 5776913
+	- Created branch: 5776914
+	- Created branch: 5776915
+	- Created branch: 5776916
+	- Created branch: 5776917
+	- Created branch: 5776918
+	- Created branch: 5776919
+	- Created branch: 5776920
+	- Created branch: 5776921
+	- Created branch: 5776922
+- Created repo for 5NE class, named Speed4-2020-2021-T-NE
+	- Created welcome file
+	- Created branch: 578690
+	- Created branch: 578691
+	- Created branch: 578692
+	- Created branch: 578693
+	- Created branch: 578694
+	- Created branch: 578695
+	- Created branch: 578696
+	- Created branch: 578697
+	- Created branch: 578698
+	- Created branch: 578699
+	- Created branch: 5786910
+	- Created branch: 5786911
+	- Created branch: 5786912
+	- Created branch: 5786913
+	- Created branch: 5786914
+	- Created branch: 5786915
+	- Created branch: 5786916
+	- Created branch: 5786917
+	- Created branch: 5786918
+	- Created branch: 5786919
+	- Created branch: 5786920
+	- Created branch: 5786921
+	- Created branch: 5786922
+- Created repo for 5OE class, named Speed4-2020-2021-T-OE
+	- Created welcome file
+	- Created branch: 579690
+	- Created branch: 579691
+	- Created branch: 579692
+	- Created branch: 579693
+	- Created branch: 579694
+	- Created branch: 579695
+	- Created branch: 579696
+	- Created branch: 579697
+	- Created branch: 579698
+	- Created branch: 579699
+	- Created branch: 5796910
+	- Created branch: 5796911
+	- Created branch: 5796912
+	- Created branch: 5796913
+	- Created branch: 5796914
+	- Created branch: 5796915
+	- Created branch: 5796916
+	- Created branch: 5796917
+	- Created branch: 5796918
+	- Created branch: 5796919
+	- Created branch: 5796920
+	- Created branch: 5796921
+	- Created branch: 5796922
+- Created repo for 5PE class, named Speed4-2020-2021-T-PE
+	- Created welcome file
+	- Created branch: 580690
+	- Created branch: 580691
+	- Created branch: 580692
+	- Created branch: 580693
+	- Created branch: 580694
+	- Created branch: 580695
+	- Created branch: 580696
+	- Created branch: 580697
+	- Created branch: 580698
+	- Created branch: 580699
+	- Created branch: 5806910
+	- Created branch: 5806911
+	- Created branch: 5806912
+	- Created branch: 5806913
+	- Created branch: 5806914
+	- Created branch: 5806915
+	- Created branch: 5806916
+	- Created branch: 5806917
+	- Created branch: 5806918
+	- Created branch: 5806919
+	- Created branch: 5806920
+	- Created branch: 5806921
+	- Created branch: 5806922
+Ended: 2020-11-30 17:44:37.988088
+Total time: 0:23:40.294148
+

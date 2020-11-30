@@ -1,19 +1,132 @@
 """school_repo
 """
+from github import Github
+from collections import defaultdict
+from os import path
+from datetime import datetime
+from time import sleep
 
 __author__ = "help@castellanidavide.it"
-__version__ = "1.0 2020-11-30"
+__version__ = "01.01 2020-11-30"
+
+TOKEN = "TODO"
+ORGANIZATION = "TODO"
 
 class school_repo:
-	def __init__ (self):
+	def __init__ (self, debug=False):
 		"""Where it all begins
 		"""
-		print(school_repo.school_repo())
+		# Start
+		self.start = datetime.now()
+
+		# Debug setup
+		self.debug = debug
+
+		# Open log file
+		self.log = open(path.join(".", "log", "trace.log"), "a+")
+		self.print(f"Start: {self.start}")
+		self.read_input()
+
+		# Made the login
+		self.login()
+
+		# Create repos and brances
+		self.create_repos()
+
+		self.print(f"Ended: {datetime.now()}\nTotal time: {datetime.now() - self.start}\n")
+		self.log.close()
 	
-	def school_repo():
-		"""school_repo first funtion
+	def login(self):
+		"""Made the login
 		"""
-		return "school_repo" #for the test (see test_school_repo.py)
+		self.g = Github(TOKEN).get_organization(ORGANIZATION)
+		self.print("Login done")
+
+	def read_input(self):
+		"""Read the input file and transform it into a map
+		"""
+		self.input = defaultdict(list)
+		for line in school_repo.csv2array(open(path.join(".", "flussi", "students.csv"), "r+").read())[1:-1]:
+			self.input[line[1]].append(line[0])
+
+		self.print("Input file readed")
+
+	def csv2array(csv):
+		"""Converts csv file to a py array
+		"""
+		array = []
+
+		for line in csv.split("\n"):
+			temp = []
+			for item in line.replace(",", "','").split("','"):
+				temp.append(item.replace('"', ""))
+			array.append(temp)
+
+		return array
+
+	def create_repos(self):
+		"""Create all repos and brances
+		"""
+		for repo_base_name in self.input:
+			self.create_repo(repo_base_name)
+			
+	def create_repo(self, repo_base_name):
+		""" Create a single repository with brances
+		"""
+		repo = ""
+		for i in range(int(repo_base_name[0]) + 1):
+			if repo == "":
+				try:
+					repo = self.g.get_repo(self.get_repo_name(repo_base_name, i))
+					self.print(f"Get an old repo: {self.get_repo_name(repo_base_name, i)}")
+				except:
+					pass
+
+		if repo == "":
+			try:
+				repo = self.g.create_repo(self.get_repo_name(repo_base_name))
+				self.print(f"- Created repo for {repo_base_name} class, named {self.get_repo_name(repo_base_name)}")
+			except:
+				repo = self.g.get_repo(self.get_repo_name(repo_base_name))
+				self.print(f"- Get access to the repo for {repo_base_name} class, named {self.get_repo_name(repo_base_name)}")
+
+		try:
+			repo.create_file("README.md", "Created initial file", "# Welcome\nWelcome to your GitHub branch, here you can, and sometimes must :), upload your school projects.\n\nGood Luck\n\nDavide Castellani\n")
+			self.print("\t- Created welcome file")
+		except:
+			self.print("\t- Welcome file already exists")
+		
+		try:
+			main = repo.get_branch("main")
+		except:
+			sleep(1)
+			main = repo.get_branch("main")
+
+		for branch in self.input[repo_base_name]:
+			try:
+				repo.create_git_ref(ref=f'refs/heads/{branch}', sha=main.commit.sha)
+				self.print(f"\t- Created branch: {branch}")
+			except:
+				self.print(f"\t- Branch already exists: {branch}")
+
+	def get_repo_name(self, repo_base_name, last = 0):
+		"""Get the complete the complete name of this year or of one of the last, using "last"
+		"""
+		if int(repo_base_name[0]) in [1, 2]:
+			return f"Speed4-{self.start.year - last}-{self.start.year + 3 - int(repo_base_name[0])}-B-{repo_base_name[1:]}"
+		else:
+			return f"Speed4-{self.start.year - last}-{self.start.year + 6 - int(repo_base_name[0])}-T-{repo_base_name[1:]}"
+
+	def print(self, message):
+		"""Print wanted message
+		"""
+		self.log.write(f"{message}\n")
+		if self.debug : print(message)
 		
 if __name__ == "__main__":
+	# Checker
+	assert(TOKEN != "TODO")
+	assert(ORGANIZATION != "TODO")
+
+	# Run code
 	school_repo()
