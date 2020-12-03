@@ -7,10 +7,12 @@ from datetime import datetime
 from time import sleep
 
 __author__ = "help@castellanidavide.it"
-__version__ = "01.01 2020-11-30"
+__version__ = "01.02 2020-11-30"
 
 TOKEN = "TODO"
 ORGANIZATION = "TODO"
+END_OF_ORGANIZATION_EMAIL = "TODO"
+INITIAL_PART_OF_REPOS = ""
 
 class school_repo:
 	def __init__ (self, debug=False):
@@ -96,37 +98,51 @@ class school_repo:
 		except:
 			self.print("\t- Welcome file already exists")
 		
-		try:
-			main = repo.get_branch("main")
-		except:
-			sleep(1)
-			main = repo.get_branch("main")
+		main = self.get_main(repo)
+		main.edit_protection(user_push_restrictions=[])
 
 		for branch in self.input[repo_base_name]:
 			try:
 				repo.create_git_ref(ref=f'refs/heads/{branch}', sha=main.commit.sha)
-				self.print(f"\t- Created branch: {branch}")
+				self.print(f"\t- Created branch user: {branch}")
 			except:
 				self.print(f"\t- Branch already exists: {branch}")
+
+			try:
+				self.g.invite_user(email=f"{branch}{END_OF_ORGANIZATION_EMAIL}", role="direct_member")
+				self.print(f"\t- Invited new user: {branch}{END_OF_ORGANIZATION_EMAIL}")
+			except:
+				self.print(f"\t- The user is in org or the email is not correct: {branch}{END_OF_ORGANIZATION_EMAIL}")
 
 	def get_repo_name(self, repo_base_name, last = 0):
 		"""Get the complete the complete name of this year or of one of the last, using "last"
 		"""
 		if int(repo_base_name[0]) in [1, 2]:
-			return f"Speed4-{self.start.year - last}-{self.start.year + 3 - int(repo_base_name[0])}-B-{repo_base_name[1:]}"
+			return f"{INITIAL_PART_OF_REPOS}{self.start.year - last}-{self.start.year + 3 - int(repo_base_name[0])}-B-{repo_base_name[1:]}"
 		else:
-			return f"Speed4-{self.start.year - last}-{self.start.year + 6 - int(repo_base_name[0])}-T-{repo_base_name[1:]}"
+			return f"{INITIAL_PART_OF_REPOS}{self.start.year - last}-{self.start.year + 6 - int(repo_base_name[0])}-T-{repo_base_name[1:]}"
 
 	def print(self, message):
 		"""Print wanted message
 		"""
 		self.log.write(f"{message}\n")
 		if self.debug : print(message)
+
+	def get_main(self, repo):
+		"""Returns main
+		"""
+		try:
+			return repo.get_branch("main")
+		except:
+			sleep(1)	# Wait a while
+			self.print("\tI'm waiting and searching main branch")
+			return self.get_main()
 		
 if __name__ == "__main__":
 	# Checker
 	assert(TOKEN != "TODO")
 	assert(ORGANIZATION != "TODO")
+	assert(END_OF_ORGANIZATION_EMAIL != "TODO")
 
 	# Run code
-	school_repo()
+	school_repo(True)
