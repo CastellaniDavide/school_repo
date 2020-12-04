@@ -9,7 +9,7 @@ from time import sleep
 __author__ = "help@castellanidavide.it"
 __version__ = "01.02 2020-11-30"
 
-TOKEN = "TOFO"
+TOKEN = "TODO"
 ORGANIZATION = "TODO"
 END_OF_ORGANIZATION_EMAIL = "TODO"
 INITIAL_PART_OF_REPOS = ""
