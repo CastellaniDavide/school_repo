@@ -5,14 +5,15 @@ from collections import defaultdict
 from os import path
 from datetime import datetime
 from time import sleep
+from requests import get
 
 __author__ = "help@castellanidavide.it"
-__version__ = "01.02 2020-11-30"
+__version__ = "01.03 2020-12-04"
 
 TOKEN = "TODO"
 ORGANIZATION = "TODO"
 END_OF_ORGANIZATION_EMAIL = "TODO"
-INITIAL_PART_OF_REPOS = ""
+INITIAL_PART_OF_REPOS = "TODO"
 
 class school_repo:
 	def __init__ (self, debug=False):
@@ -31,6 +32,9 @@ class school_repo:
 
 		# Made the login
 		self.login()
+
+		# Get online template for firts file
+		self.get_tempate()
 
 		# Create repos and brances
 		self.create_repos()
@@ -93,7 +97,7 @@ class school_repo:
 				self.print(f"- Get access to the repo for {repo_base_name} class, named {self.get_repo_name(repo_base_name)}")
 
 		try:
-			repo.create_file("README.md", "Created initial file", "# Welcome\nWelcome to your GitHub branch, here you can, and sometimes must :), upload your school projects.\n\nGood Luck\n\nDavide Castellani\n")
+			repo.create_file("README.md", "Created initial file", self.template)
 			self.print("\t- Created welcome file")
 		except:
 			self.print("\t- Welcome file already exists")
@@ -137,6 +141,11 @@ class school_repo:
 			sleep(1)	# Wait a while
 			self.print("\tI'm waiting and searching main branch")
 			return self.get_main()
+
+	def get_tempate(self):
+		"""Gets template
+		"""
+		self.template = get("https://raw.githubusercontent.com/CastellaniDavide/school_repo/main/docs/template.md").read()
 		
 if __name__ == "__main__":
 	# Checker
