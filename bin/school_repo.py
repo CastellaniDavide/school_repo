@@ -13,7 +13,7 @@ __version__ = "01.03 2020-12-04"
 TOKEN = "TODO"
 ORGANIZATION = "TODO"
 END_OF_ORGANIZATION_EMAIL = "TODO"
-INITIAL_PART_OF_REPOS = "TODO"
+INITIAL_PART_OF_REPOS = ""
 
 class school_repo:
 	def __init__ (self, debug=False):
@@ -145,7 +145,7 @@ class school_repo:
 	def get_tempate(self):
 		"""Gets template
 		"""
-		self.template = get("https://raw.githubusercontent.com/CastellaniDavide/school_repo/main/docs/template.md").read()
+		self.template = get("https://raw.githubusercontent.com/CastellaniDavide/school_repo/main/docs/template.md").text
 		
 if __name__ == "__main__":
 	# Checker
