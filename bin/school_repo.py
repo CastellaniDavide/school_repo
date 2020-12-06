@@ -8,7 +8,7 @@ from time import sleep
 from requests import get
 
 __author__ = "help@castellanidavide.it"
-__version__ = "01.03 2020-12-04"
+__version__ = "01.04 2020-12-06"
 
 TOKEN = "TODO"
 ORGANIZATION = "TODO"
@@ -121,10 +121,7 @@ class school_repo:
 	def get_repo_name(self, repo_base_name, last = 0):
 		"""Get the complete the complete name of this year or of one of the last, using "last"
 		"""
-		if int(repo_base_name[0]) in [1, 2]:
-			return f"{INITIAL_PART_OF_REPOS}{self.start.year - last}-{self.start.year + 3 - int(repo_base_name[0])}-B-{repo_base_name[1:]}"
-		else:
-			return f"{INITIAL_PART_OF_REPOS}{self.start.year - last}-{self.start.year + 6 - int(repo_base_name[0])}-T-{repo_base_name[1:]}"
+		return f"{INITIAL_PART_OF_REPOS}{self.start.year - last - (1 if self.start.month < 7 else 0)}-{self.start.year + (3 if int(repo_base_name[0]) in [1, 2] else 6) - int(repo_base_name[0]) + (1 if self.start.month < 7 else 0)}-{'B' if int(repo_base_name[0]) in [1, 2] else 'T'}-{repo_base_name[1:]}"
 
 	def print(self, message):
 		"""Print wanted message
