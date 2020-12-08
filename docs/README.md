@@ -21,20 +21,25 @@ Create the repos for the school.
    - template.md
  - flussi
    - students.csv
+   - teachers.csv
  - log
    - trace.log
  - requirements
    - requirements.txt
    
 ### Execution examples
- - change students.csv file (REMEMBER TO LEAVE EMPTY THE LAST LINE)
+ - change students.csv & teachers.csv files (REMEMBER TO LEAVE EMPTY THE LAST LINE)
  - python3 school_repo.py
 
 # Changelog
+ - [Version_01.05_2020-12-08](#Version_0105_2020-12-08)
  - [Version_01.04_2020-12-06](#Version_0104_2020-12-06)
  - [Version_01.03_2020-12-04](#Version_0103_2020-12-04)
  - [Version_01.02_2020-12-03](#Version_0102_2020-12-03)
  - [Version_01.01_2020-11-30](#Version_0101_2020-11-30)
+
+## Version_01.05_2020-12-08
+ - Now you can add teachers automatically
 
 ## Version_01.04_2020-12-06
  - Optimize the "repo name generator"

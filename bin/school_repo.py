@@ -8,7 +8,7 @@ from time import sleep
 from requests import get
 
 __author__ = "help@castellanidavide.it"
-__version__ = "01.04 2020-12-06"
+__version__ = "01.05 2020-12-08"
 
 TOKEN = "TODO"
 ORGANIZATION = "TODO"
@@ -39,6 +39,9 @@ class school_repo:
 		# Create repos and brances
 		self.create_repos()
 
+		# Add teachers to the organization
+		self.add_teachers()
+
 		self.print(f"Ended: {datetime.now()}\nTotal time: {datetime.now() - self.start}\n")
 		self.log.close()
 	
@@ -54,6 +57,10 @@ class school_repo:
 		self.input = defaultdict(list)
 		for line in school_repo.csv2array(open(path.join(".", "flussi", "students.csv"), "r+").read())[1:-1]:
 			self.input[line[1]].append(line[0])
+
+		self.teachers = []
+		for line in open(path.join(".", "flussi", "teachers.csv"), "r+").read().split("\n")[1:-1]:
+			self.teachers.append(line)
 
 		self.print("Input file readed")
 
@@ -117,6 +124,16 @@ class school_repo:
 				self.print(f"\t- Invited new user: {branch}{END_OF_ORGANIZATION_EMAIL}")
 			except:
 				self.print(f"\t- The user is in org or the email is not correct: {branch}{END_OF_ORGANIZATION_EMAIL}")
+				
+	def add_teachers(self):
+		"""Add teachers to the repo
+		"""
+		for teacher in self.teachers:
+			try:
+				self.g.invite_user(email=f"{teacher}", role="direct_member")
+				self.print(f"\t- Invited new user: {teacher}")
+			except:
+				self.print(f"\t- The user is in org or the email is not correct: {teacher}")
 
 	def get_repo_name(self, repo_base_name, last = 0):
 		"""Get the complete the complete name of this year or of one of the last, using "last"
