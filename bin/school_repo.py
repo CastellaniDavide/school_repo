@@ -8,7 +8,7 @@ from time import sleep
 from requests import get
 
 __author__ = "help@castellanidavide.it"
-__version__ = "01.06 2020-12-08"
+__version__ = "02.01 2020-12-08"
 
 TOKEN = "TODO"
 ORGANIZATION = "TODO"
