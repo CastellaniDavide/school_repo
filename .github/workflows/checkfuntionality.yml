@@ -48,4 +48,6 @@ jobs:
         echo "Emails" >> flussi/teachers.csv
     - name: Test
       run: |
-        python ./bin/test_school_repo.py ${{ secrets.GITHUB_TOKEN }}
+        python ./bin/test_school_repo.py $GITHUB_TOKEN
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
