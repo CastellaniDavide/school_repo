@@ -49,4 +49,4 @@ jobs:
         echo  ${{ secrets.TOCKEN }}
     - name: Test
       run: |
-        python ./bin/test_school_repo.py ${{ secrets.TOCKEN }}
+        python ./bin/test_school_repo.py TODO ${{ secrets.TOCKEN }}
