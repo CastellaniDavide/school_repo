@@ -1,0 +1,60 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# Test 
+
+name: Create test
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: linux-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install flake8 pytest
+        pip install -r requirements/requirements.txt
+    - name: Lint with flake8
+      run: |
+        # stop the build if there are Python syntax errors or undefined names
+        flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+        # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
+        flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+
+    - name: Change files infos
+      run: |
+        echo "Student,class
+165730,1AI
+165731,1AI
+165732,1AI
+165733,1AI
+165734,1AI
+165735,1AI
+165736,1AI
+165737,1AI
+165738,1AI
+165739,1AI
+1657310,1AI
+1657311,1AI
+1657312,1AI
+1657313,1AI
+1657314,1AI
+1657315,1AI
+1657316,1AI
+1657317,1AI
+1657318,1AI
+1657319,1AI
+1657320,1AI
+1657321,1AI
+1657322,1AI" >> flussi/students.csv
+        echo "Emails" >> flussi/teachers.csv
+        python -c "exec(\"from os import path\nfrom datetime import datetime\nmodified = open(path.join('.', 'bin', 'school_repo.py'), 'r+').read().replace('TOKEN = \"TODO\"', f'TOCKEN = \"${{ secrets.TOCKEN }}\"').replace('ORGANIZATION = \"TODO\"', f'ORGANIZATION = \"CastellaniDavideTest\"').replace('END_OF_ORGANIZATION_EMAIL = \"TODO\"', f'END_OF_ORGANIZATION_EMAIL = \"\"').replace('INITIAL_PART_OF_REPOS = \"TODO\"', f'INITIAL_PART_OF_REPOS = \"{int(datetime.now().timestamp())}\"')\nopen(path.join('.', 'bin', 'school_repo.py'), 'w+').write(modified)\")"
+    - name: Test with pytest
+      run: |
+        pytest

@@ -16,6 +16,7 @@ TOKEN = "TODO"
 ORGANIZATION = "TODO"
 END_OF_ORGANIZATION_EMAIL = "TODO"
 INITIAL_PART_OF_REPOS = ""
+FIRST_TIME = True
 
 class school_repo:
 	def __init__ (self, debug=False):
@@ -29,7 +30,7 @@ class school_repo:
 
 		# Open log file
 		self.log = open(path.join(".", "log", f"trace_{int(self.start.timestamp())}.log"), "a+")
-		self.log.write("Execution_code,Repo,Message,time")
+		self.log.write("Execution_code,Repo,Message,time\n")
 			
 		self.print(f"Start: {self.start}")
 		self.read_input()
@@ -46,7 +47,7 @@ class school_repo:
 		# Add teachers to the organization
 		Thread(target = self.add_teachers).start()
 
-		while (active_count() != 1) : print(active_count()) # Wait the end
+		while (active_count() != 1) : pass # Wait the end
 		self.print(f"Ended: {datetime.now()}")
 		self.print(f"Total time: {datetime.now() - self.start}\n")
 		self.log.close()
@@ -93,13 +94,14 @@ class school_repo:
 		""" Create a single repository with brances
 		"""
 		repo = ""
-		for i in range(int(repo_base_name[0]) + 1):
-			if repo == "":
-				try:
-					repo = self.g.get_repo(self.get_repo_name(repo_base_name, i))
-					self.print(f"Get an old repo: {self.get_repo_name(repo_base_name, i)}", repo=repo)
-				except:
-					pass
+		if not FIRST_TIME:
+			for i in range(int(repo_base_name[0]) + 1):
+				if repo == "":
+					try:
+						repo = self.g.get_repo(self.get_repo_name(repo_base_name, i))
+						self.print(f"Get an old repo: {self.get_repo_name(repo_base_name, i)}", repo=repo)
+					except:
+						pass
 
 		if repo == "":
 			try:
@@ -119,17 +121,13 @@ class school_repo:
 		main.edit_protection(user_push_restrictions=[])
 
 		for branch in self.input[repo_base_name]:
-			Thread(target=self.branch, args=(repo, main, branch))
-
-	def branch(self, repo, main, branch):
-		""" Understand if branch exist and if not create it and add user
-		"""
-		try:
-			repo.git.checkout(branch)
-			self.print(f"\t- Branch and User already exists: {branch}", repo=repo)
-		except repo.exc.GitCommandError:
-			Thread(target = self.my_create_branch, args=(repo, branch, main)).start()
-			Thread(target = self.add_student, args=(repo, branch, main)).start()
+			try:
+				assert(not FIRST_TIME) # At first time there are no branches
+				repo.git.checkout(branch)
+				self.print(f"\t- Branch and User already exists: {branch}", repo=repo)
+			except:
+				Thread(target = self.my_create_branch, args=(repo, branch, main)).start()
+				Thread(target = self.add_student, args=(repo, branch, main)).start()
 
 	def my_create_branch(self, repo, branch, main):
 		"""Try to create the branch
@@ -148,8 +146,7 @@ class school_repo:
 			self.g.invite_user(email=f"{branch}{END_OF_ORGANIZATION_EMAIL}", role="direct_member")
 			self.print(f"\t- Invited new user: {branch}{END_OF_ORGANIZATION_EMAIL}", repo=repo)
 		except:
-			sleep(1) # Wait a moment
-			self.add_student(repo, branch, main)
+			self.print(f"\t- The user is in org or the email is not correct: {branch}{END_OF_ORGANIZATION_EMAIL}", repo=repo)
 
 	def add_teachers(self):
 		"""Add teachers to the repo
@@ -194,4 +191,4 @@ if __name__ == "__main__":
 	assert(END_OF_ORGANIZATION_EMAIL != "TODO")
 
 	# Run code
-	school_repo(True)
+	school_repo()
