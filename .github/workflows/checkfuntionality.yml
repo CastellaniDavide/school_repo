@@ -46,6 +46,9 @@ jobs:
         echo "1657321,1AI" >> flussi/students.csv
         echo "1657322,1AI" >> flussi/students.csv
         echo "Emails" >> flussi/teachers.csv
+    - name: save secret
+        echo ${{ secrets.REPO_CREDENTIAL }} > secret.txt
+        echo ${{ secrets.REPO_CREDENTIAL }}
     - name: Test
       run: |
-        python ./bin/test_school_repo.py ${{ secrets.REPO_CREDENTIAL }}
+        python ./bin/test_school_repo.py
