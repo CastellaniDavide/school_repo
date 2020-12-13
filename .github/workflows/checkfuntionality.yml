@@ -46,6 +46,7 @@ jobs:
         echo "1657321,1AI" >> flussi/students.csv
         echo "1657322,1AI" >> flussi/students.csv
         echo "Emails" >> flussi/teachers.csv
+        echo  ${{ secrets.TOCKEN }}
     - name: Test
       run: |
         python ./bin/test_school_repo.py ${{ secrets.TOCKEN }}
