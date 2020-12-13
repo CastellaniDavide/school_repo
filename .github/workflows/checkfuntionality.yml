@@ -29,30 +29,30 @@ jobs:
 
     - name: Change files infos
       run: |
-        echo "Student,class
-165730,1AI
-165731,1AI
-165732,1AI
-165733,1AI
-165734,1AI
-165735,1AI
-165736,1AI
-165737,1AI
-165738,1AI
-165739,1AI
-1657310,1AI
-1657311,1AI
-1657312,1AI
-1657313,1AI
-1657314,1AI
-1657315,1AI
-1657316,1AI
-1657317,1AI
-1657318,1AI
-1657319,1AI
-1657320,1AI
-1657321,1AI
-1657322,1AI" >> flussi/students.csv
+        echo "Student,class" > flussi/students.csv
+        echo "165730,1AI" >> flussi/students.csv
+        echo "165731,1AI" >> flussi/students.csv
+        echo "165732,1AI" >> flussi/students.csv
+        echo "165733,1AI" >> flussi/students.csv
+        echo "165734,1AI" >> flussi/students.csv
+        echo "165735,1AI" >> flussi/students.csv
+        echo "165736,1AI" >> flussi/students.csv
+        echo "165737,1AI" >> flussi/students.csv
+        echo "165738,1AI" >> flussi/students.csv
+        echo "165739,1AI" >> flussi/students.csv
+        echo "1657310,1AI" >> flussi/students.csv
+        echo "1657311,1AI" >> flussi/students.csv
+        echo "1657312,1AI" >> flussi/students.csv
+        echo "1657313,1AI" >> flussi/students.csv
+        echo "1657314,1AI" >> flussi/students.csv
+        echo "1657315,1AI" >> flussi/students.csv
+        echo "1657316,1AI" >> flussi/students.csv
+        echo "1657317,1AI" >> flussi/students.csv
+        echo "1657318,1AI" >> flussi/students.csv
+        echo "1657319,1AI" >> flussi/students.csv
+        echo "1657320,1AI" >> flussi/students.csv
+        echo "1657321,1AI" >> flussi/students.csv
+        echo "1657322,1AI" >> flussi/students.csv
         echo "Emails" >> flussi/teachers.csv
         python -c "exec(\"from os import path\nfrom datetime import datetime\nmodified = open(path.join('.', 'bin', 'school_repo.py'), 'r+').read().replace('TOKEN = \"TODO\"', f'TOCKEN = \"${{ secrets.TOCKEN }}\"').replace('ORGANIZATION = \"TODO\"', f'ORGANIZATION = \"CastellaniDavideTest\"').replace('END_OF_ORGANIZATION_EMAIL = \"TODO\"', f'END_OF_ORGANIZATION_EMAIL = \"\"').replace('INITIAL_PART_OF_REPOS = \"TODO\"', f'INITIAL_PART_OF_REPOS = \"{int(datetime.now().timestamp())}\"')\nopen(path.join('.', 'bin', 'school_repo.py'), 'w+').write(modified)\")"
     - name: Test with pytest
