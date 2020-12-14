@@ -10,7 +10,7 @@ from requests import get
 from threading import Thread, active_count
 
 __author__ = "help@castellanidavide.it"
-__version__ = "03.01 2020-12-13"
+__version__ = "03.02 2020-12-14"
 
 TOKEN = "TODO"
 ORGANIZATION = "TODO"
@@ -55,7 +55,8 @@ class school_repo:
 	def login(self):
 		"""Made the login
 		"""
-		self.g = Github(TOKEN).get_organization(ORGANIZATION)
+		self.onlytoken = Github(TOKEN)
+		self.g = self.onlytoken.get_organization(ORGANIZATION)
 		self.print("Login done")
 
 	def read_input(self):
@@ -127,7 +128,8 @@ class school_repo:
 				self.print(f"\t- Branch and User already exists: {branch}", repo=repo)
 			except:
 				Thread(target = self.my_create_branch, args=(repo, branch, main)).start()
-				Thread(target = self.add_student, args=(repo, branch, main)).start()
+				Thread(target = self.add_student, args=(repo, branch)).start()
+				Thread(target = self.add_student_to_repo, args=(repo, branch)).start()
 
 	def my_create_branch(self, repo, branch, main):
 		"""Try to create the branch
@@ -136,17 +138,27 @@ class school_repo:
 			repo.create_git_ref(ref=f'refs/heads/{branch}', sha=main.commit.sha)
 			self.print(f"\t- Created branch user: {branch}", repo=repo)
 		except:
-			sleep(1) # Wait a moment
-			self.my_create_branch(repo, branch, main)
+			self.print(f"\t- Error creating a branch: {branch}", repo=repo)
 
-	def add_student(self, repo, branch, main):
+	def add_student(self, repo, user):
 		"""Try to add a new student to the repo
 		"""
 		try:
-			self.g.invite_user(email=f"{branch}{END_OF_ORGANIZATION_EMAIL}", role="direct_member")
-			self.print(f"\t- Invited new user: {branch}{END_OF_ORGANIZATION_EMAIL}", repo=repo)
+			self.g.invite_user(email=f"{user}{END_OF_ORGANIZATION_EMAIL}", role="direct_member")
+			self.print(f"\t- Invited new user: {user}{END_OF_ORGANIZATION_EMAIL}", repo=repo)
 		except:
-			self.print(f"\t- The user is in org or the email is not correct: {branch}{END_OF_ORGANIZATION_EMAIL}", repo=repo)
+			self.print(f"\t- The user is in org or the email is not correct: {user}{END_OF_ORGANIZATION_EMAIL}", repo=repo)
+
+	def add_student_to_repo(self, repo, user):
+		"""Add the user on the repo
+		"""
+		try:
+			username = get(f"https://api.github.com/search/users?q={user}{END_OF_ORGANIZATION_EMAIL.replace('@', '%40')}&type=users").json()['items'][0]['login']
+			repo.add_to_collaborators(username, permission="push")
+			self.print(f"\t- Invited new user to repo: {username}", repo=repo)
+		except:
+			sleep(60) # Wait a minute and try again
+			self.add_student_to_repo(repo, student)
 
 	def add_teachers(self):
 		"""Add teachers to the repo
