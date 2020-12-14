@@ -1,5 +1,5 @@
 # school_repo
-![GitHub license](https://img.shields.io/badge/license-MIT-green?style=flat) ![Author](https://img.shields.io/badge/author-Castellani%20Davide-green?style=flat) ![Version](https://img.shields.io/badge/version-v03.01-blue?style=flat) ![Language Python](https://img.shields.io/badge/language-Python-yellowgreen?style=flat) ![sys.platform supported](https://img.shields.io/badge/OS%20platform%20supported-Linux,%20Windows%20&%20Mac%20OS-blue?style=flat) [![On GitHub](https://img.shields.io/badge/on%20GitHub-True-green?style=flat&logo=github)](https://github.com/CastellaniDavide/school_repo)
+![GitHub license](https://img.shields.io/badge/license-MIT-green?style=flat) ![Author](https://img.shields.io/badge/author-Castellani%20Davide-green?style=flat) ![Version](https://img.shields.io/badge/version-v03.02-blue?style=flat) ![Language Python](https://img.shields.io/badge/language-Python-yellowgreen?style=flat) ![sys.platform supported](https://img.shields.io/badge/OS%20platform%20supported-Linux,%20Windows%20&%20Mac%20OS-blue?style=flat) [![On GitHub](https://img.shields.io/badge/on%20GitHub-True-green?style=flat&logo=github)](https://github.com/CastellaniDavide/school_repo)
 
 ## Description
 Create the repos for the school.
@@ -36,7 +36,8 @@ Create the repos for the school.
  - python3 school_repo.py
 
 # Changelog
- - [Version_03.01-2020-12-12](#Version_0301-2020-12-12)
+ - [Version_03.02-2020-12-14](#Version_0302-2020-12-14)
+ - [Version_03.01-2020-12-13](#Version_0301-2020-12-13)
  - [Version_02.01_2020-12-08](#Version_0201_2020-12-08)
  - [Version_01.05_2020-12-08](#Version_0105_2020-12-08)
  - [Version_01.04_2020-12-06](#Version_0104_2020-12-06)
@@ -44,7 +45,11 @@ Create the repos for the school.
  - [Version_01.02_2020-12-03](#Version_0102_2020-12-03)
  - [Version_01.01_2020-11-30](#Version_0101_2020-11-30)
 
-## Version_03.01-2020-12-12
+## Version_03.02-2020-12-14
+ - Now add the users to the repo when they create the account
+ - ATTENTION: The programm needs to run until all users entered in all the repos 
+
+## Version_03.01-2020-12-13
  - Add multitreading 30min => 3min :smile: (with my test 70 class/new repo and 1610 students/new branches)
  - Fixed a bug
 
