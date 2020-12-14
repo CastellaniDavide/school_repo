@@ -1,0 +1,11 @@
+Execution_code,Repo,Message,time
+"1607956470.187642","No repo","Start: 2020-12-14 14:34:30.187642","1607956470.187942"
+"1607956470.187642","No repo","Input file readed","1607956470.1881"
+"1607956470.187642","No repo","Login done","1607956470.671161"
+"1607956470.187642","CastellaniDavideTest/Test19-2020-2022-T-CI","- Get access to the repo for 4CI class, named Test19-2020-2022-T-CI","1607956471.335724"
+"1607956470.187642","CastellaniDavideTest/Test19-2020-2022-T-CI","	- Welcome file already exists","1607956471.597911"
+"1607956470.187642","CastellaniDavideTest/Test19-2020-2022-T-CI","	- Invited new user: 18576@studenti.marconiverona.edu.it","1607956472.621187"
+"1607956470.187642","CastellaniDavideTest/Test19-2020-2022-T-CI","	- Error creating a branch: 18576","1607956472.680147"
+"1607956470.187642","No repo","Ended: 2020-12-14 14:34:32.680248","1607956472.680269"
+"1607956470.187642","No repo","Total time: 0:00:02.492635
+","1607956472.68029"
