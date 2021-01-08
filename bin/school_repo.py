@@ -10,13 +10,13 @@ from requests import get
 from threading import Thread, active_count
 
 __author__ = "help@castellanidavide.it"
-__version__ = "03.02 2020-12-14"
+__version__ = "03.03 2021-01-08"
 
-TOKEN = "TODO"
-ORGANIZATION = "TODO"
-END_OF_ORGANIZATION_EMAIL = "TODO"
+TOKEN = "b703e81e16632a2cc078cd3e6f3ebfda4804f561"
+ORGANIZATION = "marconivr"
+END_OF_ORGANIZATION_EMAIL = "@studenti.marconiverona.edu.it"
 INITIAL_PART_OF_REPOS = ""
-FIRST_TIME = True
+FIRST_TIME = False
 
 class school_repo:
 	def __init__ (self, debug=False):
@@ -129,23 +129,26 @@ class school_repo:
 			except:
 				Thread(target = self.my_create_branch, args=(repo, branch, main)).start()
 				Thread(target = self.add_student, args=(repo, branch)).start()
-				Thread(target = self.add_student_to_repo, args=(repo, branch)).start()
 
 	def my_create_branch(self, repo, branch, main):
 		"""Try to create the branch
-		"""		
+		"""
 		try:
 			repo.create_git_ref(ref=f'refs/heads/{branch}', sha=main.commit.sha)
 			self.print(f"\t- Created branch user: {branch}", repo=repo)
 		except:
-			self.print(f"\t- Error creating a branch: {branch}", repo=repo)
+			self.print(f"\t- Branch already exists: {branch}", repo=repo)
 
 	def add_student(self, repo, user):
 		"""Try to add a new student to the repo
 		"""
 		try:
-			self.g.invite_user(email=f"{user}{END_OF_ORGANIZATION_EMAIL}", role="direct_member")
-			self.print(f"\t- Invited new user: {user}{END_OF_ORGANIZATION_EMAIL}", repo=repo)
+			if self.g.has_in_members(self.onlytoken.get_user(get(f"https://api.github.com/search/users?q={user}{END_OF_ORGANIZATION_EMAIL.replace('@', '%40')}&type=users").json()['items'][0]['login'])):
+				self.print(f"\t- The user is already into the organization: {user}{END_OF_ORGANIZATION_EMAIL}", repo=repo)
+			else:
+				self.g.invite_user(email=f"{user}{END_OF_ORGANIZATION_EMAIL}", role="direct_member")
+				self.print(f"\t- Invited new user: {user}{END_OF_ORGANIZATION_EMAIL}", repo=repo)
+			Thread(target = self.add_student_to_repo, args=(repo, branch)).start()
 		except:
 			self.print(f"\t- The user is in org or the email is not correct: {user}{END_OF_ORGANIZATION_EMAIL}", repo=repo)
 
@@ -154,26 +157,32 @@ class school_repo:
 		"""
 		try:
 			username = get(f"https://api.github.com/search/users?q={user}{END_OF_ORGANIZATION_EMAIL.replace('@', '%40')}&type=users").json()['items'][0]['login']
-			repo.add_to_collaborators(username, permission="push")
-			self.print(f"\t- Invited new user to repo: {username}", repo=repo)
+			if username in [collaborator.login for collaborator in repo.get_collaborators()]:
+				self.print(f"\t- The user is already into repo: {username}", repo=repo)
+			else:
+				repo.add_to_collaborators(username, permission="push")
+				self.print(f"\t- Invited new user to the repo: {username}", repo=repo)
 		except:
-			sleep(60) # Wait a minute and try again
-			self.add_student_to_repo(repo, student)
+			sleep(1) # Wait a minute and try again
+			self.add_student_to_repo(repo, user)
 
 	def add_teachers(self):
 		"""Add teachers to the repo
 		"""
 		for teacher in self.teachers:
 			try:
-				self.g.invite_user(email=f"{teacher}", role="direct_member")
-				self.print(f"\t- Invited new user: {teacher}")
+				if self.g.has_in_members(self.onlytoken.get_user(get(f"https://api.github.com/search/users?q={email}&type=users").json()['items'][0]['login'])):
+					self.print(f"\t- The user is already into the organization: {email}", repo=repo)
+				else:
+					self.g.invite_user(email=f"{teacher}", role="direct_member")
+					self.print(f"\t- Invited new user: {teacher}")
 			except:
 				self.print(f"\t- The user is in org or the email is not correct: {teacher}")
 
 	def get_repo_name(self, repo_base_name, last = 0):
 		"""Get the complete the complete name of this year or of one of the last, using "last"
 		"""
-		return f"{INITIAL_PART_OF_REPOS}{self.start.year - last - (1 if self.start.month < 7 else 0)}-{self.start.year + (3 if int(repo_base_name[0]) in [1, 2] else 6) - int(repo_base_name[0]) + (1 if self.start.month < 7 else 0)}-{'B' if int(repo_base_name[0]) in [1, 2] else 'T'}-{repo_base_name[1:]}"
+		return f"{INITIAL_PART_OF_REPOS}{self.start.year - last - (1 if self.start.month < 7 else 0)}-{self.start.year + (3 if int(repo_base_name[0]) in [1, 2] else 6) - int(repo_base_name[0]) - (1 if self.start.month < 7 else 0)}-{'B' if int(repo_base_name[0]) in [1, 2] else 'T'}-{repo_base_name[1:]}"
 
 	def print(self, message, repo="No repo"):
 		"""Print wanted message
@@ -203,4 +212,4 @@ if __name__ == "__main__":
 	assert(END_OF_ORGANIZATION_EMAIL != "TODO")
 
 	# Run code
-	school_repo()
+	school_repo(True)
