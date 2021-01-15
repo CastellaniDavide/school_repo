@@ -12,9 +12,9 @@ from threading import Thread, active_count
 __author__ = "help@castellanidavide.it"
 __version__ = "03.03 2021-01-08"
 
-TOKEN = "TODO"
-ORGANIZATION = "TODO"
-END_OF_ORGANIZATION_EMAIL = "TODO"
+TOKEN = "0eddf5470b1bf7b3874952e25ea2c69412b9eeee"
+ORGANIZATION = "marconivr"
+END_OF_ORGANIZATION_EMAIL = "@studenti.marconiverona.edu.it"
 INITIAL_PART_OF_REPOS = ""
 FIRST_TIME = False
 
@@ -129,6 +129,7 @@ class school_repo:
 			except:
 				Thread(target = self.my_create_branch, args=(repo, branch, main)).start()
 				Thread(target = self.add_student, args=(repo, branch)).start()
+				Thread(target = self.add_student_to_repo, args=(repo, branch)).start()
 
 	def my_create_branch(self, repo, branch, main):
 		"""Try to create the branch
@@ -143,12 +144,14 @@ class school_repo:
 		"""Try to add a new student to the repo
 		"""
 		try:
-			if self.g.has_in_members(self.onlytoken.get_user(get(f"https://api.github.com/search/users?q={user}{END_OF_ORGANIZATION_EMAIL.replace('@', '%40')}&type=users").json()['items'][0]['login'])):
-				self.print(f"\t- The user is already into the organization: {user}{END_OF_ORGANIZATION_EMAIL}", repo=repo)
-			else:
+			try:
+				if self.g.has_in_members(self.onlytoken.get_user(get(f"https://api.github.com/search/users?q={user}{END_OF_ORGANIZATION_EMAIL.replace('@', '%40')}&type=users").json()['items'][0]['login'])):
+					self.print(f"\t- The user is already into the organization: {user}{END_OF_ORGANIZATION_EMAIL}", repo=repo)
+				else:
+					assert(False)
+			except:
 				self.g.invite_user(email=f"{user}{END_OF_ORGANIZATION_EMAIL}", role="direct_member")
 				self.print(f"\t- Invited new user: {user}{END_OF_ORGANIZATION_EMAIL}", repo=repo)
-			Thread(target = self.add_student_to_repo, args=(repo, branch)).start()
 		except:
 			self.print(f"\t- The user is in org or the email is not correct: {user}{END_OF_ORGANIZATION_EMAIL}", repo=repo)
 
