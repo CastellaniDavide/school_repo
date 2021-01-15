@@ -12,9 +12,9 @@ from threading import Thread, active_count
 __author__ = "help@castellanidavide.it"
 __version__ = "03.03 2021-01-08"
 
-TOKEN = "0eddf5470b1bf7b3874952e25ea2c69412b9eeee"
-ORGANIZATION = "marconivr"
-END_OF_ORGANIZATION_EMAIL = "@studenti.marconiverona.edu.it"
+TOKEN = "TODO"
+ORGANIZATION = "TODO"
+END_OF_ORGANIZATION_EMAIL = "TODO"
 INITIAL_PART_OF_REPOS = ""
 FIRST_TIME = False
 
