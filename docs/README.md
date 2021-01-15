@@ -88,5 +88,5 @@ Create the repos for the school.
 ---
 Made by Castellani Davide 
 If you have any problem please contact me:
-- help@castellanidavide.it
+- [help@castellanidavide.it](mailto:help@castellanidavide.it)
 - [Issue](https://github.com/CastellaniDavide/school_repo/issues)
